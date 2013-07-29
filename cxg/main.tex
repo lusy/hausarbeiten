@@ -35,15 +35,17 @@
 
 
 \begin{document}
-
+\thispagestyle{empty}
 \maketitle
 
-\begin{abstract}
-    lala
-\end{abstract}
-
 %\tableofcontents
+\pagenumbering{gobble}
+\thispagestyle{empty}
+\clearpage\mbox{}\clearpage
+%\thispagestyle{empty}
+\newpage
 
+\pagenumbering{arabic}
 \include{1-Intro}
 
 \include{2-Grundlagen}
