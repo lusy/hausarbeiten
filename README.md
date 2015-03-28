@@ -1,7 +1,9 @@
 Contents
 --------
 1. Construction Grammar
-2. Talk on Spanish in New York City
+2. Spanish in the USA
+   * Talk on Spanish in NYC
+   * Paper on Spanish/English use in US women's magazines
 
 Lincence
 --------
