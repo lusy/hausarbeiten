@@ -1,0 +1,68 @@
+\documentclass{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[normalem]{ulem}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage{lmodern} % bessere Schrift für PDFs
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{natbib}
+%\usepackage{bibgerm}
+\usepackage{comment}
+\usepackage{tipa}
+\usepackage{gb4e}
+%\usepackage{lipsum} % Nur zum Auffüllen von Text
+
+% add subdirectory for images
+\graphicspath{{figures/}}
+
+
+\clubpenalty=10000
+\widowpenalty=10000
+
+% neue Absatz wird mit Leerzeile begonnen:
+\parindent 0pt
+\parskip 12pt
+
+\title{Es hora de decir bye-bye. Sozioindexikalität und Code-Switching in US-amerikanischen Frauenzeitschriften gerichtet an Latinas}
+\author{Lyudmila Vaseva\\
+\\
+Seminar Urbane Prozesse: Mehrsprachigkeit und\\
+soziale Binnendifferenzierung in den Metropolen der Romania\\
+SoSe 2014\\
+Seminarleiter: Uli Reich
+}
+
+\date{\today}
+
+\begin{document}
+
+\thispagestyle{empty}
+\maketitle
+
+\pagenumbering{gobble}
+\thispagestyle{empty}
+\clearpage\mbox{}\clearpage
+%\thispagestyle{empty}
+\newpage
+
+\pagenumbering{arabic}
+\include{1-Intro}
+
+\include{2-Grundlagen}
+
+\include{3-Korpusueberblick}
+
+\include{4-Befunde}
+
+\include{5-Fazit}
+
+\nocite{*}
+
+\bibliography{literature}
+\bibliographystyle{natdin}
+
+
+\end{document}
