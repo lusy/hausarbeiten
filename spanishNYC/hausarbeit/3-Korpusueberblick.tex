@@ -1,7 +1,6 @@
 \section{Korpusüberblick}
 
-%Überblick - Datensatz:
-%----------------------
+%TODO: set "visited on" for all links!
 
 \subsection{Datensatz}
 
@@ -17,7 +16,7 @@ wobei wir gelegentlich Code-Switches ins Englische beobachten können.
 Diese sollten im weiteren Verlauf der Arbeit näher untersucht werden.
 
 Die vorliegende Analyse hat keinen Anspruch auf Vollständigkeit:
-es werden weder zwangsläufig alle in der oben genannten Periode veröffentlichte Artikel betrachtet,
+es werden weder zwangsläufig alle in der oben genannten Periode veröffentlichten Artikel betrachtet,
 noch werden alle Englisch-Vorkommnisse extrahiert und besprochen.
 
 
@@ -31,14 +30,43 @@ noch werden alle Englisch-Vorkommnisse extrahiert und besprochen.
 %\end{itemize}
 
 \subsection{Methodik}
+
+Im Folgenden wird kurz der methodische Vorgang erläutert, durch den/im Züge dessen die untersuchten Daten aufbereitet wurden.
+
+Zunächst wurden die bereits erwähnten $1419$ Artikel herunter geladen.
+Dann wurden jegliche Formattierungen entfernt, so dass am Ende nur der eigentliche Text der Artikel vorlag.
+Als nächstes wurden die Artikeltexte anhand Leerzeichen in Tokens/Wörter segmentiert.
+Im folgenden Schritt galt es, die englischen Wörter im vorwiegend spanischen Text zu finden und als solche zu kennzeichnen.
+Hierfür habe ich mich der Rechtschreibwörterbücher von Open Office\footnote{https://wiki.openoffice.org/wiki/Dictionaries} bedient.
+Diese stellen einfache Wortlisten für die einzelnen Sprachen dar, die unter einer freien Lizenz (?LGPL/Gnu GPL -- was ist der Unterschied?)\footnote{http://archive.services.openoffice.org/pub/mirror/OpenOffice.org/contrib/dictionaries/README\_en\_EN.txt} benutzbar sind.
+Ich habe dann jedes Token entsprechend des Wörterbuchs, in dem es vorkam, annotiert: Spanisch, Englisch oder beides. (genauer gesagt, gab es Spanisch allgemein und Regionalspanisch)
+Anschließend habe ich alle Tokens, die \textbf{nur} als Englisch annotiert wurden, zusammen mit ihrem unmittelbaren Kontext betrachtet.
+
+Es muss an der Stelle angemerkt werden, dass der oben beschriebene Prozess auf keinen Fall perfekte Ergebnisse liefert.
+Zum Einen sind die Wörterbücher von Open Office keine erschöpfenden Wortlisten.
+Es fehlen nicht nur seltene oder exotische Begriffe, sondern ganz oft auch Formen von sehr häufig vorkommenden Wörtern:
+nicht jedes Substantiv ist mit allen seinen Formen (weiblich, männlich, singular, plural) erfasst;
+genau so wenig ist es jedes Verb in allen Zeiten, Modi und Personen.
+Natürlich existieren Mechanismen, die es erlauben, die entsprechenden Formen zu generieren und zum Wörterbuch hinzuzufügen.
+Dies ist jedoch ein längeres Unterfangen, das den Rahmen der vorliegenden Arbeit sprengen würde und es wird deshalb darauf verzichtet.
+
+Ein weiteres Problem bei diesem Ansatz stellen Homographe dar.
+Diejenige Wörter, die auf Spanisch und Englisch gleich geschrieben werden aber unterschiedliche Bedeutungen haben, werden in den Wortlisten wahlweise in dem einem, in dem anderen oder in beiden Wörterbüchern gefunden.
+Es kommt also oft vor, das ein Token als Englisch annotiert wurde (und zwar nur als Englisch, weil das spanische Wörterbuch unvollständig war), obwohl es sich bei einer Lektüre des Textes ganz klar und eindeutig um ein spanisches Wort handelt.
+
+%TODO
+%Zwischenschlussfolgerung!
+
+Nachdem wir klar gestellt haben, wie die untersuchten Daten zusammen getragen und aufbereitet wurden, können wir nun zu den gewonnen Erkenntnissen übergehen.
+
 %Ein bisschen über die Methodik:
-\begin{itemize}
-  \item runtergeladen
-  \item plaintext
-  \item open office dicts (LGPL)
-  \item in Wörter segmentiert (white spaces delimiters)
-  \item Wörter annotiert
-  \item nicht perfekt, Wörterbücher sind keine erschöpfende Wortlisten -- verbesserungsbedürftig
-  \item alles angeguckt (manuel), was *nur* als Englisch annotiert wurde
-  \item auch problematisch beim Ansatz: viele Wörter, die es sowohl im Englischem als auch im Spanischen gibt (Homographe); selbst wenn man nur die als Englisch annotierte Tokens herauspickt, handelt es sich doch öfters um Homographe, da Wörterbücher nicht erschöpfend sind
-\end{itemize}
+%\begin{itemize}
+%  \item runtergeladen
+%  \item plaintext
+%  \item open office dicts (LGPL)
+%  \item in Wörter segmentiert (white spaces delimiters)
+%  \item Wörter annotiert
+%  \item nicht perfekt, Wörterbücher sind keine erschöpfende Wortlisten -- verbesserungsbedürftig
+%  \item alles angeguckt (manuel), was *nur* als Englisch annotiert wurde
+%  \item auch problematisch beim Ansatz: viele Wörter, die es sowohl im Englischem als auch im Spanischen gibt (Homographe); selbst wenn man nur die als Englisch annotierte Tokens herauspickt, handelt es sich doch öfters um Homographe, da Wörterbücher nicht erschöpfend sind
+%\end{itemize}
