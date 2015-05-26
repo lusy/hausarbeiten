@@ -4,6 +4,7 @@ Contents
 2. Spanish in the USA
    * Talk on Spanish in NYC
    * Paper on Spanish/English use in US women's magazines
+3. Motivation for participation in the FOSS/Wireless community networks communities
 
 Lincence
 --------
