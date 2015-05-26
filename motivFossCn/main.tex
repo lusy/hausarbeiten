@@ -1,0 +1,59 @@
+\documentclass{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[normalem]{ulem}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage{lmodern} % bessere Schrift für PDFs
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{natbib}
+%\usepackage{bibgerm}
+\usepackage{comment}
+\usepackage{tipa}
+\usepackage{gb4e}
+%\usepackage{lipsum} % Nur zum Auffüllen von Text
+
+% add subdirectory for images
+\graphicspath{{figures/}}
+
+
+\clubpenalty=10000
+\widowpenalty=10000
+
+% neue Absatz wird mit Leerzeile begonnen:
+\parindent 0pt
+\parskip 12pt
+
+\title{Altruismus oder Lebenslaufgestaltung?: Ein Vergleich der Mitmachmotivationen bei den FOSS und den Freifunk Communities}
+\author{L V\\
+\\
+Seminar Beiträge zum Software Engeneering\\
+SoSe 2015\\
+Seminarleiter: Lutz Prechelt
+}
+
+\date{\today}
+
+\begin{document}
+
+\thispagestyle{empty}
+\maketitle
+
+\pagenumbering{gobble}
+\thispagestyle{empty}
+\clearpage\mbox{}\clearpage
+%\thispagestyle{empty}
+\newpage
+
+\pagenumbering{arabic}
+\include{1-Intro}
+
+\nocite{*}
+
+\bibliography{literature}
+\bibliographystyle{dinat}
+
+
+\end{document}
