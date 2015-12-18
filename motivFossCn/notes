@@ -1,7 +1,7 @@
 FOSS Motivation
 ===============
 
-[HarOu02]
+[HarOu2002]
 
 2 broad categories:
 * internal factors (e.g. intrinsic motivation, altruism)
@@ -106,10 +106,77 @@ Results of the empirical survey
 * developers paid for open source: ``most concerned with self-marketing and
 fulfilling their personal software needs''
 
+--------------------------------------------------------------------------
+
+[LakWo2005]
+
+
+---------------------------------------------------------------------------
+
+[ZhoMoc2012]
+
+Question: What makes Long Term Contributors to OSS?
+
+Basiert auf Auswertung von Repository Data für Mozilla und Gnome
+
+Motivation nicht explizit erwähnt, Sachen können evtl indirekt abgeleitet werden:
+* gutes Arbeitsklima, mit Feedback, Interaktion mit den anderen Beteiligten am Projekt, auch Mentoring (related to feedback)
+``The micro-climate with a productive and clustered peer group increases the odds.''
+``crucial to gain people’s support.''
+* wenn man schnell am Anfang dazu kommt, Issues zu fixen oder produktiv beizutragen --> Erfolgserlebnisse als Motivation
+``Joiners who start by commenting on instead of reporting an issue or ones who succeed to get
+at least one reported issue to be fixed, more than double their odds of becoming an LTC.''
+
+
+-----------------------------------------------------------------------------
+
+[LerTir2002]
+
+``To an economist, the behavior of individual programmers and commercial
+companies engaged in open source projects is initially startling.''
+-_- I'd rather say "to a capitalist, the behavior is initially startling.."
+
+* altruism, giving back to the public
+``The idea that the proprietary software social system -- the system
+that says you are not allowed to share or change software -- is
+unsocial, that it is unethical, that it is simply wrong may come as a
+surprise to some people. But what else can we say about a system
+based on dividing the public and keeping users helpless? [Stallman,
+1999]''
+* ego/reputation boost; personal satisfaction
+``The `utility function' Linux hackers is maximizing is not classically
+economic, but is the intangible of their own ego satisfaction and
+reputation among other hackers. [Raymond, 1999b].''
+
+But as true economists seek explainations behind altruism^^
+
+also nicht nur "arme Menschen" (was auch immer damit gemeint ist), profitieren vom FOSS
+``While users in
+less developed countries undoubtedly bene¢t from access to free software,''
+
+* developing software to satisfy personal needs
+``The open source development process is somewhat reminiscent of the type of `user-
+driven innovation' seen in many other industries.''
+``In many instances,
+solutions developed by particular users for individual problems have
+become more general solutions for wide classes of users.''
+
+===========================================================================
+
 Freifunk Motivation
 ===================
-[Mabb14]
+[Mabb2014]
 * Experimentieren mit Technik, Lernen --> freie Bildung
 * eine soziale Idee --> almende/commons/gemeinschaftliche Verwaltete Ressource
 * Netzneutralität: ``Netzzugang ist ein Menschenrecht. Freie Netzwerke bieten allen Menschen
 neutralen Zugang offen an und entstehen, indem jede und jeder einen Teil beiträgt.''
+
+
+[WNDW2013]
+* affordable; in manchen Fällen und Regionen die einzige Option, um an Internet dran zu kommen
+``Using inexpensive off-the-shelf equipment, you can build high speed data
+networks that connect remote areas together, provide broadband network
+access in areas where even dialup does not exist, and ultimately connect
+you and your neighbours to the global Internet.''
+``There are many rural parts all over the globe that remain unconnected to
+the Internet for reasons of cost, geography, politics and so on.''
