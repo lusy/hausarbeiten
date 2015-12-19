@@ -1,6 +1,8 @@
 FOSS Motivation
 ===============
 
+(Am Rand: Ich glaube, alle Papers beschäftigen sich mit der Motivation von Entwickler*innen; allerdings gibt es auch andere Möglichkeiten zu FOSS-Projekten beizutragen; zb Userdocumentation; Publicity; Design; ..)
+
 [HarOu2002]
 
 2 broad categories:
@@ -160,6 +162,28 @@ driven innovation' seen in many other industries.''
 ``In many instances,
 solutions developed by particular users for individual problems have
 become more general solutions for wide classes of users.''
+
+* (related): contribute to existing FOSS project, which they use for a project for work (their job); so they are technically paid
+(and they can do bug fixing and customizing on the project, because its foss on the 1st place)
+``First, the programmer, when fixing a bug or customizing an open source program, may actually
+improve rather than reduce her performance in the mission endowed upon
+her by her employer. This is particularly relevant for system administra-
+tors looking for specific solutions for their company.''
+``Meanwhile, many of the new
+contributors are already employed by corporations, and working on
+Apache development as part of their regular assignments.''
+
+* enjoyable to experiment with new stuff:
+``Second, the programmer compares how enjoyable the mission set by the employer and the
+open source alternative are. A `cool' open source project may be more
+fun than a routine task.''
+
+* possible future job offers: ``career concern incentive''
+(because of recognized skill of the programmer, since the code is open)
+
+* peer recognition : ``ego gratification incentive''
+
+* learning soft-skills (e.g. team communication)
 
 ===========================================================================
 
