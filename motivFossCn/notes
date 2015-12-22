@@ -1,7 +1,22 @@
 FOSS Motivation
 ===============
 
-(Am Rand: Ich glaube, alle Papers beschäftigen sich mit der Motivation von Entwickler*innen; allerdings gibt es auch andere Möglichkeiten zu FOSS-Projekten beizutragen; zb Userdocumentation; Publicity; Design; ..)
+Allgemeine Gedanken/Kommentare
+
+
+*(Am Rand: Ich glaube, alle Papers beschäftigen sich mit der Motivation von Entwickler*innen; allerdings gibt es auch andere Möglichkeiten zu FOSS-Projekten beizutragen; zb Userdocumentation; Publicity; Design; ..)
+
+* viele Papers machen die Dichotomie intrinsic/extrinsic motivation auf; ich finde allerdings, dass beide öfters schwierig von einander abzugrenzen sind und wir in vielen Fällen viel mehr von einem Kontinuum anstatt von diskreten Werten ausgehen sollten
+
+* Struktur/Leitfaden für später
+  ** einzelne Motivationen aufzählen
+  ** wo wurden sie erwähnt
+  ** welche Perspektive vertreten die entsprechenden Papers im allgemeinen (eher wirtschaftlich/sozialwissenschaftlich/psychologisch/..)
+  ** wie wurden die Ergebnisse erhoben --> was für Auswirkungen hat das auf die Ergebnisse?
+     (wer hat wen gefragt und was genau/wie wurde gefragt; haben die Fragenden die Fragen so gestellt, damit die Antworten, die sie erwartet haben, gegeben werden?)
+  ** welche Faktoren sind FOSS/WCN gemeinsam; welche sind anders
+
+------------------------------------------------------------------------------------
 
 [HarOu2002]
 
@@ -112,7 +127,109 @@ fulfilling their personal software needs''
 
 [LakWo2005]
 
+nothing really breath-taking;
+general impression: swappy editing (typos, grammar incongruencies); illogical arguments sometimes;
+web-based survey
 
+* 3 general motivation categories
+  ** intrinsic, flow/creativity based
+  ** extrinsic (career advancement, payment) --> economic in essence
+  ** intrisic, community obligation (acting out of principle; returning something to the foss community; foss rocks; identification with the foss community..)
+---> table 6 for more detailed summary of motivations (+ some percentages)
+
+
+``flow'':
+``enjoyment is maximized, characterized by intense and focused concentration; a
+merging of action and awareness; confidence in one’s ability; and the enjoyment of the activity
+itself regardless of the outcome''
+``Flow states occur a person’s skill matches the challenge of a task. [...]
+A task that is beyond the skill of an individual will provoke anxiety, and a task
+that is below the person’s skill level will induce boredom.''
+``Thus F/OSS participants may be
+seeking flow states by selecting projects that match their skill levels with task difficulty, a choice
+that may not be available in their regular jobs''
+
+extrinsic motivation:
+immediate and delayed payoffs (gibts schon iwo anders auch)
+* immediate: being paid to participate; user need for particular software
+* delayed: career advancement (job market signaling); improving programming skills (human capital)
+``Participants indicate
+to potential employers their superior programming skills and talents by contributing code to
+projects where their performance can be monitored by any interested observer''
+
+payment:
+``The combination of those who received direct financial compensation
+and those whose supervisors knew of their work on the project created a category of “paid
+contributors” consisting of approximately 40% of the sample.''
+``Overall, paid contributors are spending more than two working days a week and
+volunteer contributors are spending more than a day a week on F/OSS projects.''
+--> später wird das als Argument für Produktivität oder so herangezogen, was ich bisschen absurd finde;
+klar, können Menschen, die dafür bezahlt werden, sich mehr damit beschäftigen, die anderen müssen immer noch auch Lohnarbeit verrichten..
+
+* previous work
+  ** states that previous work has found mostly extrinsic motivation (better jobs, career advancement)
+
+* findings (short version):
+  ** motivation is heterogeneous combination of both intrinsic and extrinsic factors (enjoyment based intrinsic motivation is prevailing)
+  ** intrinsic/extrinsic do not compete against or diminish each other (contrary to established psychology findings)
+  ** sense of flow/creativity/enjoyment is primary motivation
+
+Findings (longer version, some quotes; see also table 6 of the paper):
+* user need: ``User needs for the software, both work and nonwork-related, combine to be the
+overwhelming reason for contribution and participation (von Hippel 1988, 2001, 2002), with
+more than 58% of participants citing them as a important.''
+* enjoyment: ``The top single reason to contribute to projects is based on enjoyment-related intrinsic
+motivation: “Project code is intellectually stimulating to write” (44.9%)''
+* improving programming skills : ``Improving programming
+skills, an extrinsic motivation related to human capital improvement, was a close second, with
+41.8% of participants saying it was an important motivator.''
+(ich finde "intellectual stimulation" und "improving programming skills" recht schwierig von einander abzugrenzen)
+* identification with open source values: ``Approximately one-third of our sample indicated that the belief that “source code should
+be open,” an obligation/community motivation, was an important reason for their participation.''
+* identification with the hacker community: (wird nicht in der summary tabelle aufgelistet.. eine weitere Inkonsistenz)
+``Another sou rce of an obligation/community motivation is the level of identification felt
+with the hacker community. Self-identification with the hacker community and ethic should
+drive participation in projects. Respondents to our survey indicated a strong sense of g roup
+identification with 42% indicating that they “strongly agree” and another 41% “somewhat agree”
+that the hacker community is a primary source of their identity''
+* ``It is consistent for someone paid to participate in the F/OSS movement to be moved by the political
+goals of free software and open code.''
+--> jo, auf jeden Fall, man kann sich auch nur durch Läden einstellen lassen, dir für die Entwiklung eben solcher Software zahlen
+
+top motivations:
+* for paid contributors: ``work-related user need (56%) and value professional status (22.8%)''
+* for volunteers: ``improve their skills (45.8%) or need the software for non -work purposes (37%)''
+
+impact on hours per week:
+* largest positive: personal sense of creativity; like the team; caring about reputation in the foss community
+* negative impact: if a person works on multiple projects at the same time (logical, they have less time per project Oo), formal it training (warum auch immer, wird nicht weiter analysiert)
+
+survey design/overview
+* conducted 2001-2002 (vlt auch spannend zu vergleichen, von wann die Daten sind)
+* selection of contributors to projects on sourceforge; invited to participate
+* demography: nearly all male, Western Europe/North America, average 30 years old, majority professional developers and formal IT training(but not all of them work on foss for their job); ~19% students
+* 684 responses total
+* ~40% paid to do FOSS
+
+Kritik
+* gramatikalische und so Fehler
+* unlogische Schlussfolgerungen (siehe unten)
+* omitting data (in the clustering analysis, some motives with higher percentages are not cited)
+* ``A detailed examination of the difference in project types between those that stated work-related needs and
+nonwork -related needs showed that there was no technical difference between them.''
+--> Ich finds äußerst merkwürdig dass hier ein Unterschied erwartet wurde
+* ``A majority of the projects that
+were indicated as nonwork were of sufficient technical scope and applicability that firms also produced similar
+proprietary versions. We therefore see a blurring of distinction in the software produced for work and nonwork
+purposes.''
+--> Die Schlussfolgerung find ich auch bescheuert; bloß weil es Firmen gibt, die proprietäre Software schreiben, für die es FOSS Alternativen gibt, heißt es nicht dass der Bedarf für diese Software job-related ist
+--> Ich kann es nachvollziehen, dass die Unterscheidung zwischen Software geschrieben für work and non work puproses schwammig ist, ist ja naheliegend;
+Jedoch hat das wohl kaum damit zu tun, dass non-work related projects technisch genau anspruchsvoll sind.
+Ist auch nicht eine Konsequenz daraus dass es FOSS und proprietäre Software gibt, die das selbe tun.
+* ``Furthermore, contrary to experimental findings on the negative impact of extrinsic
+rewards on intrinsic motivations (Deci, Koestner, and Ryan 1999) , we find that being paid and
+feeling creative on F/OSS projects does not have a significant negative impact on project effort.''
+--> Warum sollte being creative eine negative Auswirkung auf die Stunden, die man investiert haben? Ich dachte, eher "being paid" hat ne negative Auswirkung auf die Kreativität.. und evtl auf das Endergebnis, aber das ist nicht was dieser Satz da sagt..
 ---------------------------------------------------------------------------
 
 [ZhoMoc2012]
