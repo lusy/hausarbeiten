@@ -22,6 +22,77 @@ Spielen folgende Punkte ne Rolle für deine Motivation:
 2.8 Ich mach/will machen was auf dem Gebiet beruflich und das ist die Gelegenheit, meine Fähigkeiten aufzupollieren/Kontakte knüpfen/für Arbeitgeber_innen sichtbar werden
 
 ==============================================================================================================================================
+
+11) M aus Berlin
+
+* Warum machst du Freifunk? --> übergeordnete Frage
+1.1 Warum/Wie bist du ins Projekt eingestiegen?
+Friedrichsein, Gebiet ohne DSL, Glaskabel, über 
+Drang nach Schnellem Internet
+
+1.2 Wie lange machst du das schon?
+später drüber nachdenken ~4 Jahre
+~ 2004 -- 2008 -- WiFi mäßig Pionierzeit
+(technische Probleme waren viel größer, viele Menschen mit enormem Sachverständnis; Binary analysiert, reverse engeneered und gepatched)
+
+1.3 Was genau machst du da/hast du bis jetzt gemacht?
+* Anfang Router auf das eigene Dach + Nachbardach installiert, damit man sicch mit dem nächsten Knoten verbinden kann
+* Firmware : unexistierende Features
+* IP Vergabe gemanaged (Seite, die automatisch vergibt, mit DB reden)
+* Protocollentwicklung (Protokoll war auch nicht zufrieden stellend)
+* Hardware (die aktuelle Hardware wurde end-of-lifed)
+  ---> deshalb ursprünglich nach Taiwan gegangen
+  ---> Heresteller_innen überzeugen OpenWRT zu benutzen und reflashbare Router zu haben
+  ---> TODO:war erfolgreich?
+
+1.4 Wie aktiv nimmst du an Orga teil?
+* aktiv teilgenommen
+
+1.5 Was findest du an dem Projekt cool? Was findest du weniger cool?
+cool:
+* netzwerkstruktur dezentral und händen vielen ist toll! kann man nicht an wenigen stellen abschalten/kontrollieren
+* versuch neutral zu sein dessen was im netzwerk passiert (netzneutralität)
+
+uncool:
+* dezentral ist auch Herausfoderung
+  ** Leute haben sich zerstritten und sich gegenseitig rausgekickt
+  ** funktioniert gut wenn es klein ist, sonst probleme
+     *** viele Leute, die viel runterladen...
+     *** andererseits nur wenn groß, hast du relevante Abdeckung
+     *** wenn es klein ist kann man viel experimentieren, wenn groß --> Servicemantalität der Nutzer_innen, an stabilität interessiert und nicht an Experimenten, die Entwickler_innen sind dann nicht mehr interessiert, die haben das schon ständig aufm Job; die Leute wollen sich nicht drum kümmern
+     (hat man als Lebenszyklus bereits gesehen: Peak 2007, dann implodiert das Netz; auf einmal viele Serviceleute, Entwickler springen ab, Installateure auch; bestimmt Entwickler_innen abspringen auch ab, weil es iwann nicht mehr spannend ist)
+  ** schwierig zu updaten
+* die Egos, die gestreichelt werden wollen, sind auf einem Haufen anstrengend
+
+Austieg??
+* nach Taiwan gegangen wegen Hardwaregespräche, zum ersten Job in Taiwan gekommen; sich mit Hardware das 1. Mal beschäftigt; dann halt nicht mehr vor Ort
+* mehr in die Routing-Protokoll Ecke abgedriftet, mehr Zeit in Anspruch genommen, als Freifunk als solches
+* realistisch versuchen Dinge umzusetzen
+* Interessenverschieb
+
+
+1.6 hintergrund?
+* zur Zeit kurz Student, dann Freelance Entwickler
+* Netzwerkandmin, später mehr Entwickler
+
+Warum nicht mehr
+
+Konkreter
+---------
+Spielen folgende Punkte ne Rolle für deine Motivation:
+2.1 Freifunk ist technisch spannend/anspruchsvoll und es macht Spaß, sich damit auseinander zu setzen
+2.2 Ich will mir die technischen Fähigkeiten aneingnen, wie WLAN/Mesh-Netzwerke/... funktionieren
+2.3 Ich will mich mit den gesetzlichen Rahmenbedinungen auseinandersetzen
+2.4 Ich will eine freie, community-betriebene Kommunikationsinfrastruktur (mit)schaffen, weil ich denke, es ist Scheiße, dass alles in den Händen von paar Konzernen ist
+2.5 Ich hab damit angefangen, weil die kommerziellen Providern keine Lust hatten, mich anzuschließen, weil es sich für sie nicht gelohnt hat
+2.6 Mir ist Netzneutralität wichtig
+2.7 Ich mach beruflich das mit Freifunk beruflich: krieg Geld für Knoten einrichten, Wartung, ...
+2.8 Ich mach/will machen was auf dem Gebiet beruflich und das ist die Gelegenheit, meine Fähigkeiten aufzupollieren/Kontakte knüpfen/für Arbeitgeber_innen sichtbar werden
+
+
+
+------------------------------------------------------------------------------------------
+
 10) I aus Hannover
 
 1.1 aufm kongress mitbekommen und interessiert verfolgt
