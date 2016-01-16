@@ -323,3 +323,61 @@ access in areas where even dialup does not exist, and ultimately connect
 you and your neighbours to the global Internet.''
 ``There are many rural parts all over the globe that remain unconnected to
 the Internet for reasons of cost, geography, politics and so on.''
+
+
+[Medosch2004]
+* Ähnlichkeit Freie Software/Freie Netze, oder was motiviert diesen Vergleich?
+``Ähnlich wie freie Software entstehen freie Netze durch die kooperativen
+Handlungen vieler einzelner Akteure. Dabei ist der Aspekt der persönli-
+chen Freiheit ausschlaggebend und nicht, dass etwas gratis angeboten wird.'' (S.8)
+
+* Verständnis von Freifunk:
+``Freifunk.net versteht sich als Plattform für freie Funkvernetzung im
+gesamten deutschsprachigen Raum. Das Projekt hat sich dem Austausch
+von Information verschrieben und will anderen Möglichkeiten geben,
+sich einzubringen. Vernetzung wird vor allem als soziales Projekt
+betrachtet, es geht um die Bildung oder Stärkung von sozialen Gemein-
+schaften. Interessierte werden zur Mitarbeit auf den verschiedensten
+Ebenen eingeladen, organisatorisch, technisch, inhaltlich sowie auf der
+Ebene konkreter täglicher Arbeit.''(S.133)
+
+* Was sind freie Netzwerke:
+``Damit handelt es
+sich de facto um ein Netz, das seinen Benutzern gehört,''(S.137)
+
+Redet nicht direkt von Motivation, bzw explizit von der Motivation konkreter Menschen, aber man kann paar Sachen zwischen den Zeilen ablesen:
+* eigene/unabhängige Kommunikationsinfrastruktur:
+``Bürgerinnen und Bürger die Vernetzung selbst in die Hände nehmen. Eigene Kommu-
+nikationsstrukturen sollen aufgebaut werden, die möglichst frei von
+staatlichen und privatwirtschaftlichen Zwängen sind.'' (S.7)
+``Die großen Telekommunikationsunternehmen und einige wenige
+Massenmarkt-Provider kontrollieren die Zugangswege zum Internet. Sie
+bestimmen die ökonomischen und technischen Parameter der Angebots-
+strukturen. Die Freiheit, die das Internet einst versprach, ist von einer
+Reihe weiterer Faktoren bedroht.'' (S.53)
+``Der Zugang zu den Netzen, aber auch die Art ihrer Nutzung können daher von jenen kontrol-
+liert werden, die signifikante Anteile an der physisch-materiellen Infrastruktur des Netzes besitzen''(S.174)
+
+* aufm Land/in bestimmten Gebieten ist es schwierig (gute) Internetverbindung zu bekommen (für Deutschland wars eher vor 10 Jahren relevant, für andere Länder heute noch; vgl Antworten von Leuten, die vor 12 und die vor 2 Jahren angefangen haben)
+``Gerade auch in kleinen Städten und auf dem Land, wo es oft schwierig ist, eine gute Inter-
+netverbindung zu bekommen, bietet sich das Modell als Lösung an.'' (S. 8--9)
+
+Ostdeutschland/Ostberlin : nicht funktionale Glasfaser
+``Auch gibt es eine große Gruppe von Menschen in Deutschland, die
+nur müde lächeln können, wenn sie von Kritik an vorhandenen ADSL-
+Anschlüssen hören. Denn diese Menschen werden in näherer Zukunft
+gar kein ADSL bekommen können, weil sie zu den Opfern des OPAL-
+Netzes zählen. OPAL steht für »Optische Anschlussleitung«. Bei der
+Erneuerung des ostdeutschen Telefonnetzes Anfang der neunziger Jahre
+wurde von der Telekom Glasfasertechnologie verwendet. Eigentlich
+wollte man damit, der Legende nach, Gutes tun, indem man technolo-
+gische Zwischenschritte übersprang und gleich auf die fortgeschrittenste
+Netztechnologie setzte.'' (S.126)
+
+* Communityanbindung:
+``Ich denke, dass gerade diese WLAN-Communities sehr interessante
+gesellschaftliche Effekte haben können. Ohne WLAN hätte ich so schnell
+z. B. auch nie Kontakt zu der c-base aufgenommen und nie gewusst, dass
+hier in meiner direkten Umgebung viele nette Leute wohnen, die sich
+über ein Hobby finden, das man sowohl in Form von IP-Paketen als auch
+in Form von Antennen auf den Dächern teilen kann.''(Frank Steuer) (S.129)
