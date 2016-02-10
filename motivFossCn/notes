@@ -1,7 +1,5 @@
-FOSS Motivation
-===============
-
 Allgemeine Gedanken/Kommentare
+==============================
 
 
 *(Am Rand: Ich glaube, alle Papers beschäftigen sich mit der Motivation von Entwickler*innen; allerdings gibt es auch andere Möglichkeiten zu FOSS-Projekten beizutragen; zb Userdocumentation; Publicity; Design; ..)
@@ -22,6 +20,190 @@ Allgemeine Gedanken/Kommentare
   ** wenn verschiedene Ergebnisse vorliegen: woran liegt das? wie haben sie das gemessen? welche projekte wurden untersucht?
 
 ------------------------------------------------------------------------------------
+
+Motivation allgemein
+====================
+
+[RyDe2000]
+
+die Begriffe "intrinsic"/"extrinsic" motivation geprägt
+
+paper: classic definition of intrinsic/extrinsic motivation + contemporary research (v.a die weitere Kategorisierung von "extrinsischer" Motivation)
+
+``Intrinsic motivation remains an important construct, reflecting the natural human propensity to learn and assimilate.''
+
+extrinsic motivation :
+``vary considerably in its relative autonomy''
+``can either reflect external control or true self-regulation.''
+
+Kurz gefasst die These vom Paper: extrinsic motivation != extrinsic motivation
+
+``The relations of both classes of motives to basic human needs for autonomy, competence and relatedness are discussed.''
+
+Def Motivation:
+``To be motivated means to be moved to do something.''
+
+``motivation is hardly a unitary phenomenon''
+different amount/different kinds of motivation
+
+Bsp intrinsic/extrinsic:
+``student can be highly motivated to do homework
+out of curiosity and interest or, alternatively, because he or she wants to
+procure the approval of a teacher or parent.''
+
+
+Past research:
+SDT (Self-Determination Theory) (Deci & Ryan 1985)
+most basic distinction:
+intrinsic: inherently interesting/enjoyable
+extrinsic: leads to a separable outcome
+
+``the quality of experience and performance can be very different
+when one is behaving for intrinsic versus extrinsic reasons.''
+
+2 focus of the paper:
+* ``summarize the functional differences of these two general types of motivation.''
+* ``explication of the very different types of motivation that fall into the category of extrinsic motivation.''
+
+educators perspective (journal is "Contemporary Educational Psychology")
+
+``In the classic literature, extrinsic motivation has typically been
+characterized as a pale and impoverished (even if powerful) form of motiva-
+tion that contrasts with intrinsic motivation''
+
+SDT: ``varied types of extrinsic motivation, some
+of which do, indeed, represent impoverished forms of motivation and some
+of which represent active, agentic states.''
+
+Attitude matters:
+``Students can perform extrinsically motivated actions with resentment, re-
+sistance, and disinterest or, alternatively, with an attitude of willingness that
+reflects an inner acceptance of the value or utility of a task.''
+
+Def intrinsic:
+-------------
+``doing of an activity for its inherent
+satisfactions rather than for some separable consequence.''
+``for the fun or challenge entailed''
+``for the positive experiences associated with exercising and extending ones capacities.''
+
+``a critical element in cognitive, social, and physical development''
+``it is through acting on one’s inherent interests that one grows in knowledge and skills.''
+``inclinations to take interest in novelty, to actively assimilate, and to creatively apply our skills''
+``significant feature of human nature that affects performance, persistence, and well-being across life’s epochs''
+``Our own approach focuses primarily on psychological needs—namely,
+the innate needs for competence, autonomy, and relatedness''
+
+``exists in the nexus between a person and a task''
+``some authors have defined intrinsic motivation in terms of the task being interesting''
+``while others have defined it in terms of the satisfactions a person gains''
+
+How to measure/study intrinsic motivation:
+* free choice
+``They thus have a period of ‘‘free choice’’ about whether to return to the activity, and it is assumed
+that, if there is no extrinsic reason to do the task''
+* ``use of self-reports of interest and enjoyment of the activity per se''
+
+CET (Cognitive Evaluation Theory)
+What facilitates intrinsic motivation:
+* ``optimal challenges''
+* ``effectance promoting feedback''
+* ``freedom from demeaning evaluations''
+* ``interpersonal events and structures [...] that conduce toward feelings of competence''; ``basic psychological need for competence''
+--
+competence +
+* autonomy: ``a sense of autonomy or, in attributional terms, by an internal perceived locus of causality''
+``people must not only experience perceived compe-
+tence (or self-efficacy), they must also experience their behavior to be self-
+determined if intrinsic motivation is to be maintained or enhanced.''
+
+What undermines intrinsic motivation:
+* rewards: ``demonstration that extrinsic rewards can undermine intrinsic motivation [...] shifting people
+from a more internal to external perceived locus of causality.''
+* threats
+* deadlines
+* directives
+* competition pressure
+
+Def extrinsic
+-------------
+``most of the activities people do are not, strictly speaking, intrinsically motivated.''
+``Extrinsic motivation is a construct that pertains whenever an activity is
+done in order to attain some separable outcome.''
+``SDT proposes that extrinsic motivation can vary greatly in the degree to which it is autonomous''
+
+taxonomy of human motivation:
+(für mich ist es manchmal schwierig zu sagen, in wie fern sich ein Typ von extrinsischer Motivation von intrinsischer Motivation unterscheidet)
+(inscreasing feeling of autonomy/self-determination)
+* amotivation ("perceived non-contigency; low perceived competence; nonrelevance; nonintentionality")
+* extrinsic motivation
+  ** external regulation ("saliance of extrinsic rewards or punishments; compliance/reactance")
+  ** introjection? ("ego involvement; focus on approval from self or others")
+  ** identification ("conscious valuing of activity; self-endorsement of goals") --> aka nervig zu tun, aber für sinnvoll erachtet?
+  ** integreation ("hierarchical synthesis of goals; congruence" ?? was soll das heißen?)
+* intrinsic motivation ("interest/enjoyment; inherent satisfaction")
+
+In detail
+amotivation reasons:
+* ``not valuing the activity'';
+* ``not feeling competent to do it'';
+* ``not believing it will yield a desired outcome'';
+
+external regulation: <--- prototype for extrinsic motivation in early lab studies
+* ``satisfy an external demand''
+* ``obtain an externally imposed reward contingency''
+* ``typically experience externally regulated behavior as controlled or alienated''
+
+introjected regulation:
+* ``people perform such actions with the feeling of pressure in order to
+avoid guilt or anxiety or to attain ego-enhancements or pride.''
+* ``regulation by contingent self-esteem.''
+* ``person performs an act in order to enhance or maintain self-esteem and the
+feeling of worth.''
+
+identification:
+* ``personal importance of a behavior'' (hört sich für mich einigermaßen ähnlich zum nächsten an..)
+
+integrated regulation:
+* ``most autonomous form of extrinsic motivation''
+* ``identified regulations have been fully assimilated to the self''
+* ``bringing new regulations into congruence with one’s other values and needs.''
+* ``share many qualities with intrinsic motivation, being both autonomous and unconflicted''
+* still extrinsic: ``done for its presumed instrumental value with respect to some outcome'' although ``volitional and valued by the self''
+
+intrinsic motivation:
+* ``prototype of self-determined activity''
+* ``this does not mean that as extrinsic regulations become more internalized they are transformed into intrinsic motivation.'' mh.. was will mir das bloß sagen..
+
+taxonomy: continuum;
+but
+``One does not have to progress through each stage of internalization with respect to a particular regulation;''
+``one can initially adopt a new behavioral regulation at any point along the continuum''
+``there is no necessary ‘‘sequence.’’''
+orientation shift is possible in both directions;
+
+tendencies:
+``appears that people’s general regulatory style does, on average, tend to become more ‘‘internal’’ over time''
+``in accord with the general organismic tendencies toward autonomy and self-regulation''
+``greater internalization'': ``more behavioral effectiveness [...] and greater experienced well-being''
+
+--> also Ziel: `` how to promote the autonomous regulation of
+extrinsically motivated behaviors.''
+
+How: (wiederholt sich ein bisschen) <--- ``The studies have been interpreted in terms of the basic psychological needs.''
+* sense of belongingness: ``This suggests that the groundwork for facilitating internalization is providing a sense of belongingness''
+feel appreciated, cared for; valued by significant others;
+* perceived competence: ``offering optimal challenges and effectance-relevant feedback''
+* sense of autonomy: ``Controlling contexts
+may yield introjected regulation if they support competence and relatedness,
+but only autonomy supportive contexts will yield integrated self-regulation.''
+
+
+----------------------------------------------------------------------------------------
+
+
+FOSS Motivation
+===============
 
 [HarOu2002]
 
