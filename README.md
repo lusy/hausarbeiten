@@ -4,7 +4,8 @@ Contents
 2. Spanish in the USA
    * Talk on Spanish in NYC
    * Paper on Spanish/English use in US women's magazines
-3. Motivation for participation in the FOSS/Wireless community networks communities
+3. Motivation for participation in the FLOSS/Wireless community networks communities
+   * full text available under: [http://github.com/lusy/motFossFf-paper](http://github.com/lusy/motFossFf-paper)
 
 Lincence
 --------
