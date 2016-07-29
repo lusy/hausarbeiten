@@ -6,6 +6,7 @@ Contents
    * Paper on Spanish/English use in US women's magazines
 3. Motivation for participation in the FLOSS/Wireless community networks communities
    * full text available under: [http://github.com/lusy/motFossFf-paper](http://github.com/lusy/motFossFf-paper)
+4. Feministische Lektüre von Pablo Nerudas Liebeslyrik
 
 Lincence
 --------
