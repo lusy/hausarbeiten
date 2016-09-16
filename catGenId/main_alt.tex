@@ -101,11 +101,12 @@ headinclude,footinclude, % Extra spacing for the header and footer
 \renewcommand{\refname}{\spacedlowsmallcaps{Referències}} % For modifying the bibliography heading
 
 \nocite{*}
-\bibliographystyle{unsrt}
+\addcontentsline{toc}{section}{Referències}
+%\bibliographystyle{unsrt}
 %\bibliographystyle{alpha}
+%\bibliographystyle{natdin}
+%\bibliography{literature} % The file containing the bibliography
 
-\bibliography{literature} % The file containing the bibliography
-
-
+\printbibliography
 %----------------------------------------------------------------------------------------
 \end{document}
