@@ -34,7 +34,7 @@ noch werden alle Englisch-Vorkommnisse extrahiert und besprochen.
 Im Folgenden wird kurz der methodische Vorgang erläutert, durch den/im Züge dessen die untersuchten Daten aufbereitet wurden.
 
 Zunächst wurden die bereits erwähnten $1419$ Artikel herunter geladen.
-Dann wurden jegliche Formattierungen entfernt, so dass am Ende nur der eigentliche Text der Artikel vorlag.
+Dann wurden jegliche Formattierungen entfernt (html-Markup), so dass am Ende nur der eigentliche Text der Artikel vorlag.
 Als nächstes wurden die Artikeltexte anhand Leerzeichen in Tokens/Wörter segmentiert.
 Im folgenden Schritt galt es, die englischen Wörter im vorwiegend spanischen Text zu finden und als solche zu kennzeichnen.
 Hierfür habe ich mich der Rechtschreibwörterbücher von Open Office\footnote{https://wiki.openoffice.org/wiki/Dictionaries} bedient.
@@ -44,7 +44,7 @@ Anschließend habe ich alle Tokens, die \textbf{nur} als Englisch annotiert wurd
 
 Es muss an der Stelle angemerkt werden, dass der oben beschriebene Prozess auf keinen Fall perfekte Ergebnisse liefert.
 Zum Einen sind die Wörterbücher von Open Office keine erschöpfenden Wortlisten.
-Es fehlen nicht nur seltene oder exotische Begriffe, sondern ganz oft auch Formen von sehr häufig vorkommenden Wörtern:
+Es fehlen nicht nur seltene Begriffe, sondern ganz oft auch Formen von sehr häufig vorkommenden Wörtern:
 nicht jedes Substantiv ist mit allen seinen Formen (weiblich, männlich, singular, plural) erfasst;
 genau so wenig ist es jedes Verb in allen Zeiten, Modi und Personen.
 Natürlich existieren Mechanismen, die es erlauben, die entsprechenden Formen zu generieren und zum Wörterbuch hinzuzufügen.
