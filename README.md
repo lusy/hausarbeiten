@@ -8,7 +8,8 @@ Contents
    * full text available under: [http://github.com/lusy/motFossFf-paper](http://github.com/lusy/motFossFf-paper)
 4. Feministische Lektüre von Pablo Nerudas Liebeslyrik (DE)
 5. L’últim patriarca: Najat El Hachmi. La vida de la dona entre cultures, llengües, autopercepcions i les expectacions dels altres (CAT)
-6. Historia cultural de Argentina: konkreter Titel folgt (ES)
+6. Historia cultural de Argentina: *Evita. Libro de lectura para primer grado inferior*: un análisis desde las ciencias culturales (ES)
+7. El proyecto Altermundi: entre instituciones y organización desde abajo (working title) (ES)
 
 
 Lincence
