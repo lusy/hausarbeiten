@@ -26,6 +26,14 @@
 \parindent 0pt
 \parskip 12pt
 
+% custom commands
+\renewcommand{\section}{%
+  \@startsection{section}{1}
+    {\headerindent}%
+    {-3.5ex \@plus -1ex \@minus -.2ex}%
+    {2ex \@plus.2ex}%
+    {\headingfont\Large\textcolor{MMIblue}}}
+
 \title{Spanish in New York City}
 \author{LV\\
 \\
@@ -50,7 +58,15 @@ Seminarleiter: Prof. Uli Reich
 \newpage
 
 \pagenumbering{arabic}
-lalala
+%\begin{samepage}
+\include{1-Intro}
+\nopagebreak
+\include{2-Background}
+\nopagebreak
+\include{3-SPP}
+\nopagebreak
+%\end{samepage}
+
 
 \nocite{*}
 
