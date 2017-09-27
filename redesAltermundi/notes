@@ -387,3 +387,190 @@ APCNews: What does the future hold for community networks?
 
 NE: Community networks are constructed, developed and managed by the people who are going to use them. Local traffic is their top priority, and they enter into peering agreements (for free exchange of traffic) with any other network offering reciprocity. That’s what the internet was like when it started; that was the original spirit, which has gradually been lost. The internet has become more of a closed shop, and the big fish do not make peering agreements with the little fish, leading to the breakdown of the peer-to-peer model. In my view, community network activism has two pillars: providing concrete solutions for flesh-and-blood people, and “infecting” a piece of the internet with the old spirit of the internet. 
 "
+
+--------------
+[FiTre2015]
+
+
+% Social
+"Rather than being driven by profits, they focus on the actual needs of the needs of its participants. They
+also experiment with novel models of distributed governance"
+"flat organizations and a peer-to-peer approach to decision-making, based on deliberation and consensus"
+-- stimmt fuer die redes
+
+%% polit. engagement der Projekte
+eigentlich sehen sie sich nicht zwangslaeufig als politisch y operan más fuera de la lógica de la política convencional de instituciones o del activismo político disidente (protestas, etc.)
+"One way is to address the issue from within the political system, as ‘insiders’, formally interacting with the power holders"
+"Another solution is to fight the problem as ‘outsiders’, pressuring both regulators and
+incumbents from outside the political system, by means of protests, demonstrations and other campaigning tactics"
+"Yet, most of the community networks we surveyed do not properly qualify as what social movement scholars define as ‘insiders’ (although they
+sometimes do interact with policy-makers), and much less as ‘outsiders’. Mostly, they fall within the third category—what Milan identifies as
+‘beyonders’."
+"remaining beyond the political system"
+--> vgl auch "route around laws" from Rieders text (zitat eff mensch)
+
+allerdings sind sie schon in essenz politisch:
+"hese networks are ‘prefigurative realities’ that
+challenge the status quo and ultimately contribute to a new political order (Milan, 2013, pp.126-38): these networks – built ‘for the people, by the
+people’ – fundamentally embody a form of political action."
+
+"distributed counter-power to traditional telecoms operators"
+"adhere to specific ethical commitments and governance structures."
+"From locally-grown food to locally-grown networks, WCNs form part of a wider movement
+focused on empowering local communities to directly produce and manage the resources that matters the most to them."
+-- paralelo soberania de comunicación - soberanía alimentaria (vgl Interview Isa)
+
+und fazit: es lohnt sich politische Loesungen fuer polit. Probleme zu suchen
+"these examples show that ‘insider’ strategies, i.e. direct engagement with policy-makers, are worth pursuing."
+-- davor kommentar: es ist fuer solche Iniziativen oft nicht feasible sich mit Politik zu beschaeftigen, v.a. da sie dafuer keine Ressourcen haben;
+es ist eine volunteer community, die netzwerke bauen moechte und nicht sich mit gesetzestexten beschaeftigen.
+weiss nicht in wie fern das alles auf altermundi zutrifft, aber die sind im grunde auch alles techies;
+und auch wenn deren motivation weniger faszination mit technik und mehr hippie-soberania comunicativa-derecho a comunicación ist, haben die vermutlich genau so wenig menschen, die von legal issues plan haben und nicht unbedingt riesenbock sich da reinzusteigern
+
+
+% Commons
+"In particular, to the extent that they rely solely and exclusively on free-to-use airwaves (or ‘spectrum
+commons’)"
+"Against the backdrop of traditional economic theory, open spectrum policies have shown that commons-based approach to many-to-many
+communication infrastructure can actually work in practice."
+"Ostrom’s (1990, p. 88) claim that users themselves and
+ad hoc technical standards can create and enforce rules that mitigate the over-exploitation of the commons,"
+"though property-based allocations
+of spectrum and exclusive licensing still have the upper hand, they have often come short of fostering public interest goals, for instance by
+causing a very significant underutilization of this public resource"
+"networks built with taxpayers’ money could also be treated as a commons,"
+
+% Motivationen fuer WCN
+%% Surveilance/Privacy
+"privacy threats raised by centralized communications architectures"
+"regulatory incentives to filter online content under the pressure of public officials"
+"dominant telecom operators might undermine users autonomy is through their collaboration with intelligence agencies
+for surveillance purposes"
+"light-touch approach to logging users’ communications"
+
+%% Net neutrality/freedom of speech
+"aspiration to preserve network neutrality and civil liberties online to an eagerness to counteract
+the growing concentration of power in the hands of a few large ISPs;"
+"As opposed to commercial ISPs blocking certain
+ports and censoring websites or content, most community networks are intended to protect net neutrality"
+
+%% self-governed communications infrastructure, that allows for all that
+"political drive to successfully roll-out and maintain a citizen-owned
+telecom infrastructure."
+
+%% need for communication infrastructure, since region not lucrative for commercial ISPs
+"need to support undeserved areas lacking broadband connectivity to the will to provide a more diversified (and often
+cheaper) means to access the Internet;"
+"lack of affordable or high-quality Internet access"
+"many provide connectivity
+to places that traditional, commercial ISPs neglect. These are often undeserved areas or poor neighborhoods, whether in rural or urban settings."
+
+%% interest in tech tinkering and understanding how networks work
+"desire to learn and experiment with telecommunication
+technologies, to the satisfaction of being part of a collective of like-minded individuals."
+
+%% Bildungsauftrag -- central fuer Altermundi
+"users’ lack of technical skills is sometimes one of the most challenging problems, and can lead projects to fail"
+"all the WCNs we have interviewed, active and skilled volunteers are in charge of training new-
+comers and neophytes, helping them, for instance, to set up and manage their routers and Wi-Fi antennas"
+"Accordingly, community networks often promote the use of free software, decentralized
+online services and end-to-end encryption techniques."
+
+% Intro
+"The history of communication technologies is populated with such conflicts between centralization and decentralization"
+% hist Entwicklung decentralization -> centralization
+"many of these technologies started or have existed at some point of their development as a decentralized structure"
+"nearly all progressively evolved into concentrated clusters of power"
+"rather binary antagonism between decentralization/freedom and centralization/control in
+communications resources."
+-- vlt bisschen uebertrieben, das so schwarz-weiss zu sehen, gewisser grad an zentralitaet ist unabdingbar, e.g. wenn das lokale Netzwerk ans Internet angeschlossen werden sollte
+
+
+% Zum Zusammenfuegen chapter?
+"we show how the current revival of grassroots community networks can counterbalance the erosion of autonomy of Internet users that results from current
+telecom policies."
+
+% Def community networks
+"As opposed to more larger and centralized network infrastructures owned and managed by powerful third parties (such as the
+state or large, highly capitalized Internet Service Providers (ISPs)), grassroots community networks are deployed by the community and for the
+community at the local or regional level"
+Auch A. Medosch
+Und IV Nico Pillku
+"WCN constitute, essentially, a political choice"
+"all items are typically made publicly available."
+"many
+centralized WCNs have made the logical interface for administrating the network available to all members who wish to access it,"
+-- public maps with the nodes are available
+-- ich weiss nicht, ob es auch fuer finanzberichte gilt
+-- aber auf jeden Fall hat altermundi auf der seite recht extensive doku
+it's an ongoing work -- the infrastructure crumples if people cease to maintain it and provide broadband
+
+% redes comunitarias -- tech description
+-- nicht alle community networks sind wlans! (rhizomatica; manche sind nicht nur wireless --> guifi; und nicht alle sind mesh --> auch guifi;)
+"many community networks do not rely on radio technologies"
+"rely solely and exclusively on
+free-to-use airwaves (or ‘spectrum commons’), WCN are to some extent more independent from incumbent ISPs than landline community"
+
+% la infraestructura técnica
+gibts in Altermundis redes local services? (vgl nicos iv)
+autonomous local networks + uplink to the internet (which is a potential bottleneck)
+
+% mesh
+"simultaneously be both a client and a relay node for other users"
+"it automatically reconfigures itself according to the availability and
+proximity of bandwidth or storage." (das ist eher ad-hoc)
+"to grow organically with minimal coordination and give them maximum resiliency: with mesh topology, there is
+theoretically no sensitive points (or single points of failure) to jeopardize the functioning of the local network"
+"Even if a particular node is down, dynamic connections between nodes enable packets to travel"
+"to the extent that the network is dense enough and that many users operate as
+relay nodes, the only way to shut down the network is to shut down every single node it is made of"
+
+% Free networks
+"Such questions are being addressed by the Free Network Foundation (FNF)—a nonprofit organization created to support ‘free networks’
+—defined as any network that equitably grants the following freedoms to all: ‘Freedom to communicate for any purpose, without discrimination,
+interference, or interception; freedom to grow, improve, communicate across, and connect to the whole network; freedom to study, use, remix,
+and share any network communication mechanisms, in their most reusable forms.’ In conjunction with this definition and labeling effort, the FNF
+seeks to create a license for interconnection agreements"
+
+% list of projects in Europa
+For our study, we focused on a handful of groups, and in particular FreiFunk (Germany), Wlan
+Slovenija (Slovenia), Guifi.net (Spain) and Tetaneutral.net in Toulouse (France) —the latter is also a member of the FFDN, a federation of French
+grassroots networks initially spearheaded by the landline community network FDN. Other European WCN include Ninux (Italy), Funfeuer
+(Austria), the Athens Wireless Metropolitan Network (Greece), Djurslands.net (Denmark) and Czfree.net (Czech Republic).
+% otros ejemplos
+rhizomatica en México; VillageTelco? in South Africa; Peoplesopen.net in California; Altermundi in Argentina; Mesh Bogota? in Colombia; Brazil?
+
+"while the political values attached to decentralization might have driven the launch of this
+initiative, such motives are not in and of themselves sufficient for the network to scale up beyond a restrained community of highly engaged
+individuals with strong ideological values."
+-- naja, in ARG existiert auf jeden fall "real need"; die Frage ist ob man in dem Kontext wirklich von grossem Skalieren reden kann, ist aber vlt auch voellig egal
+"To grow, these community networks must also provide a service that is considered at least as good
+and preferably better than that of mainstream ISPs. "
+
+% Security
+"autonomous local networks" -- das ist auch interessant wegen soberania comunicativa
+"Local mesh networks also enable users to
+escape from the ubiquitous and pervasive surveillance that is occurring on the global Internet"
+"‘Devices operating in any wireless network—including mesh networks—use a radio transmitter that can always be located by
+triangulation’,"
+"even with highly distributed networks, traffic can always be monitored."
+"in no way can local community networks replace proper encryption techniques."
+"Their primary advantage in times of crisis
+is the fact that they provide community with the means to communicate independently from the central command of governments and traditional
+operators. They enable citizen to organize (politically or otherwise) even in the eventuality that the established powers activate the so-called ‘kill-
+switch’ and shut down communications networks in a given area (Hasan et al.)"
+"even through they do not have to give their identity to log into our mesh network, they are not anonymous toward the
+authorities or other entities due to hardware and software profiles of their devices and other metadata’"
+
+% Mapamiento/papel del estado
+--Law is more often than not, a hurdle (siehe auch firmware lockdown)
+--Allerdings gabs in ARG ein progressives Telemediengesetz 2009, was Macri grad versucht zu kassieren.
+"law should respond by ‘implementing policies that predictably diversify the set of options that all individuals are able
+to see as open to them’ (Benkler 2006, p. 152)."
+-- gibt eine Liste von was der Staat alles machen koennte, um die Arbeit der Community Networks zu erleichtern; man koennte vergleichen was davon alles auf ARG zutrifft;
+auf jeden Fall, varying Erfolg, es gibt Versprechen, die nicht eingehalten werden; relativ progressive Gesetzgebung, dann wiederrum Versuche die rueckgaengig zu machen (hier sieht man wie auch der Actor "staat" in einzelne Regierungen bzw Personen zerfaellt, die alle verschiedene Ziele verfolgen)
+
+% Mapamiento -- commercial ISPs como actor --contrapoder!!
+"a policy overhaul focused on community networks can indeed help create effective counter-powers to the
+dominance of commercial operators in the communications infrastructure."
+
