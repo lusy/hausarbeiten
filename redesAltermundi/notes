@@ -574,3 +574,44 @@ auf jeden Fall, varying Erfolg, es gibt Versprechen, die nicht eingehalten werde
 "a policy overhaul focused on community networks can indeed help create effective counter-powers to the
 dominance of commercial operators in the communications infrastructure."
 
+-------------
+
+[Firmware lockdown/Radio lockdown]
+[Firmware lockdown updates -- Simon Wunderlich]
+https://www.youtube.com/watch?v=LWJ8RfliJqQ
+
+* EU Radio Equipment Directive: 2014/53/EU (http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A32014L0053)
+* FCC "Firmware lockdown"/"Router lockdown"
+* idea: regulate unregulated spectrum, hardware producers have to make sure, that their product don't send over frequencies they're not allowed to use (stichwort: das problem ist messing up the weather radar, at least true for the FCC)
+* argument: it's for safety reasons (intereference with other *important* devices)
+
+* interpretation of producers: we lock the hardware in such a way that no alternative firmware can be flashed on it (and our firmware uses only the allowed frequencies)
+
+2014/53/EU
+The crunch point is in Article 3.3(i): radio equipment shall support "certain features in order to ensure that software can only be loaded into the radio equipment where the compliance of the combination of the radio equipment and software has been demonstrated".
+--> quite vague
+--> applies even to hardware that only receives radio signal (such as gps devices)
+
+Delegated acts should regulate the details, e.g. also saying which regulations exactly apply to which types of devices
+No delegated acts yet. ---> so producers have the problem as to what to follow
+
+New devices introduced to the market should comply with these regulations:
+* in the EU starting June 13, 2017
+* in the US ...?
+
+--> all software should be certified; only certified software is allowed on the devices
+--> this whole thing is a problem for community network projects, since they mostly rely on customly written free firmware adjusted to the needs of the local community
+--> certification process is slow and costly, so not really an option
+
+--> potentially a threat for all free software, since every device nowadays is radio enabled (think laptops with wifi chips, etc.)
+--> actually everything is quite uncertain still
+
+FCC
+---
+* only concerns 5MHz (RED is about any radio)
+* TP-Link locked stuff down (most widely spread off-the-shelf router manufacturer used in community networks)
+
+Allerdings, you can imagine, if 2 of the biggest markets for consumer electronics implement such regulations, it would be dificult to obtain devices which are not built according to them, even if you're somewhere else (e.g Argentina) --> Altermundi activists actually report it to be a problem in the talk; so they "route around the problem" and design the libre router
+If you certify hardware with the FCC you can sell it without further burocratic hurdles to various markets because of bilateral agreements
+
+--> no rule should apply globally (rural areas don't have airports in radius of 100s of km, so the concern for the weather radars is not viable there)
