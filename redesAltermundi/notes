@@ -615,3 +615,17 @@ Allerdings, you can imagine, if 2 of the biggest markets for consumer electronic
 If you certify hardware with the FCC you can sell it without further burocratic hurdles to various markets because of bilateral agreements
 
 --> no rule should apply globally (rural areas don't have airports in radius of 100s of km, so the concern for the weather radars is not viable there)
+
+[Update FCC] https://www.eff.org/deeplinks/2016/08/fcc-settlement-requires-tp-link-support-3rd-party-firmware
+* March 2015  new security requirements (prevent wireless routers from interfering with other communications)--> unintended consequence lock down hardware to 3rd party firmware
+(594280 D02 U-NII Device Security v01
+Federal Communications Commission
+Office of Engineering and Technology
+Laboratory Division
+March 8, 2015
+SOFTWARE SECURITY REQUIREMENTS FOR U-NII DEVICES)
+
+--
+* another problem with the lock down: manufacturer firmware doesn't get security updates!
+* you don't know what runs on your device: potentially surveillance can be going on
+* either have special US version of your devices or lose marketshare elsewhere
