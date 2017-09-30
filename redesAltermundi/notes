@@ -696,3 +696,87 @@ lations"
 Reunión en LaQuintana 19 Marzo 2017
 "Nono Libre: Tiene la dificultad que en momentos de mucha afluencia turística se satura la salida a internet. "
 
+------------
+% Mapeo
+
+[Castells2015]
+Programmers and Switchers
+"Thus, who holds power in the network society? The *pro-
+grammers* with the capacity to program each one of the main
+networks on which people’s lives depend (government, par-
+liament, the military and security establishment, finance,
+media, science and technology institutions, etc.). And the
+*switchers* who operate the connections between different
+networks (media moguls introduced in the political class,
+financial elites bankrolling political elites, political elites bail-
+ing out financial institutions, media corporations intertwined
+with financial corporations, academic institutions financed
+by big business, etc.)."
+
+ANT: podemos hacer aquí zooms in y out!
+
+                          * da talleres
+                          * apoyo técnico
+                          * Bildungsauftrag
+
+            Altermundi <-----------------------> redes
+         /   ^                                     ^
+individuos   |                                     |
+             |                                     |
+             |                                     |
+             |                                     |
+             v                                     v
+            estado<-------------------------> infraestructura
+
+Altermundi:
+* individuos, gente que se comunica entre si, con todos los problemas y desafíos que surgen de esto
+* tiene una forma organizativa legal: asociación civil (siehe IV) para poder entrar en alianzas, cooperaciones (con el estado y otras organizaciones formales, p.e. la Universidad de Córdoba)
+* función auxiliar (las redes son autónomas)
+
+Estado:
+* está responsable para regulaciones que ayudan o impiden el trabajo de tales proyectos (ley telemediatica)
+* la última milla
+* solucionar el problema de conexión de manera completa/de gran escala (siehe papel del estado)
+* apoyo financial (eher nicht, vgl Entstehungsgeschichte)
+[FiTre2015]
+% Mapamiento/papel del estado
+--Law is more often than not, a hurdle (siehe auch firmware lockdown)
+--Allerdings gabs in ARG ein progressives Telemediengesetz 2009, was Macri grad versucht zu kassieren.
+"law should respond by ‘implementing policies that predictably diversify the set of options that all individuals are able
+to see as open to them’ (Benkler 2006, p. 152)."
+-- gibt eine Liste von was der Staat alles machen koennte, um die Arbeit der Community Networks zu erleichtern; man koennte vergleichen was davon alles auf ARG zutrifft;
+auf jeden Fall, varying Erfolg, es gibt Versprechen, die nicht eingehalten werden; relativ progressive Gesetzgebung, dann wiederrum Versuche die rueckgaengig zu machen (hier sieht man wie auch der Actor "staat" in einzelne Regierungen bzw Personen zerfaellt, die alle verschiedene Ziele verfolgen)
+
+
+Infraestructura:
+* ¿donde está?
+* quien la mantiene/gestiona/instala
+* quien tiene acceso?
+
+Redes
+* autónomas
+* tensiones: problemas con la comunicación dentro de la comunidad
+* falta de conocimientos técnicos
+
+Proveedores de servicios tradicionales
+* intereses económicos comerciales
+* interesados en el uso exclusivo de recursos del espectro
+* no interesados en proveer acceso a internet en regiones pobres y con poca población
+% Mapamiento -- commercial ISPs como actor --contrapoder!! [FiTre2015]
+"a policy overhaul focused on community networks can indeed help create effective counter-powers to the
+dominance of commercial operators in the communications infrastructure."
+[Castells2015]
+Contrapoder def:
+"deliberate attempt to change
+power relationships, is enacted by reprogramming networks
+around alternative interests and values, and/or disrupting the
+dominant switches while switching networks of resistance
+and social change."
+
+
+Foreign Regulatory Bodies: EC und FCC
+* intento a regular el espectro
+* sobre todo mesuras contra la interferencia con los rádares (weather radar) <-- no está relevante para regiones rurales
+* verabschieden vage Richtlinien, interpretadas por los productores de hardware como aufruf, prohibir software libre
+* igualmente que se trata de instituciones del EU/EEUU, esto va a influenciar todo el mundo, ya que sonst cada productor tiene que producir productos distintos para los diferentes mercados: con y sin implementar las regulaciones
+
