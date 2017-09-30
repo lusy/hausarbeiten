@@ -1,167 +1,91 @@
 \section{El proyecto AlterMundi}
 
+En este capítulo vamos a presentar un análisis de AlterMundi al nivel físico y social de las redes facilitadas.
+
 \subsection{Desarollo histórico}
 % oder \subsection{Altermundi: fundación, objetivo, estructura, desarrollo histórico}
 
-La asociación civil AlterMundi comienza a formalizarse en el año 2012 con el objetivo de facilitar talleres de redes libres dentro del proyecto Arraigo Digital, iniciado por el Ministerio de Educación en Argentina con el fin de ``capacitar a los jóvenes en conocimiento, funcionamiento y armado de una red digital comunitaria, además de la introducción y práctica del software libre''~\autocite{Picolli2015}.
+La asociación civil AlterMundi comienza a formalizarse en el año 2012 con el objetivo de facilitar talleres de redes libres dentro del proyecto Arraigo Digital, iniciado por el Ministerio de Educación en Argentina con el fin de ``capacitar a los jóvenes en conocimiento, funcionamiento y armado de una red digital comunitaria, además de la introducción y práctica del software libre''~\autocite{Piccoli2015}.
 AlterMundi surge desde la cooperativa CodigoSur\footnote{\url{https://www.codigosur.org/quienes-somos/codigo-sur}}, un grupo de activistas de diferentes países de América Latina que facilita el desarrollo y uso de tecnologías libres\footnote{Cuando
  hablamos de tecnologías libres, no nos referimos a productos gratuitos, sino a tales que conceden a lxs usuarixs ciertas libertades, como la posibilidad de utilizar el software para lo que quieran, estudiar el funcionamiento del software, modificar el software según sus necesidades y compartir las versiones modificadas.
 Para más información, veáse también la definición propuesta por la Free Software Foundation: \url{https://www.fsf.org/about/what-is-free-software}.}
 de información y comunicación para diferentes movimientos sociales.
-La forma legal de asociación civil les permite hacer alianzas con otras organizaciones formales, como por ejemplo la Universidad Nacional de Córdoba que provee un enlace al Internet o diferentes fundaciones que les han prestado suporte financial.
+La forma legal de asociación civil les permite hacer alianzas con otras organizaciones formales, como por ejemplo la Universidad Nacional de Córdoba que provee un enlace al Internet o diferentes fundaciones que les han prestado suporte financial~\autocite{Vaseva2016a}.
 Lo interesante es que AlterMundi en si no es una red comunitaria, sino una organización de activistas que suporte el despliegue de tales redes por toda Argentina.
 
-% add cronología --> in appendix
+Al final, el proyecto Arraigo Digital no se realiza en la forma prevista~\autocite{Vaseva2016a},~\autocite{Piccoli2015}, pero la primera red local, QuintanaLibre, va en linea igualmente.
+Desde entonces el grupo básico de activistas, que es AlterMundi, ha ayudado a diversas comunidades a construir redes comunitarias locales:
+hasta hoy existen más de siete redes locales en Argentina y diversos proyectos en el extranjero, cuyo despliegue ha sido apoyado por AlterMundi.
 
-Al final, aquell proyecto no se realizó en la forma prevista~\autocite{Vaseva2016a},~\autocite{iv-nico-pillku}, pero la primer red local, QuintanaLibre, ha ido en linea igualmente.
-Desde entonces el grupo básico de activistas, que es Altermundi, ha ayudado a diversas comunidades a construir redes comunitarias locales:
-hasta hoy existen ....
+Para una cronología más detallada, veáse también el apéndice.
 
 \subsection{La red como infraestructura técnica}
-Para las metas del trabajo actual, cuando hablamos de redes comunitarias vamos a entedender redes comunitarias inalámbricas (computer networks).
--- bzw las redes de AlterMundi son redes inalámbricas; <-- importante para el hardware que se usa, flexibilidad, etc.
 
+Como ya hemos señalado, la asociación civil AlterMundi facilita el despliegue de redes comunitarias inalámbricas en pequeñas poblaciones, sobre todo en el interior de Argentina, donde los proveedores tradicionales de servicios de Internet no ven oportunidad de lucro ecónomico y no prestan servicio~\autocite{Piccoli2015},~\autocite{Vaseva2016a}.
+La mayoría de las redes estan instaladas en regiones montañosas y poco pobladas.
 
-% oder La red como infraestructura física
+% topología
+Al principio, se trata de redes autónomas locales que solamente conectan lxs vecinxs entre si y a veces también proveen servicios locales, como por ejemplo telefonía IP o aplicaciones de chat~\autocite{Piccoli2015}.
+Con la ayuda de enlaces punto a punto a distancias largas (entre la Ciudad de América, las Altas Cumbres y la Universidad Nacional de Córdoba), la mayoría de estas redes están también interconectadas, y al final, conectadas al Internet.
+Figura~\vref{fig:mapa} nos da una idea de la distribución geográfica de las redes.
 
-Bastante intrigante, aunque en un primer momento quizás un poco contralógica, resulta la observación de Latour que ``the expansion of digitality has enormously increased the material dimension of networks''~\autocite{Latour2010}.
-Sin embargo, si reflejionamos un poco sobre el asunto, nos damos cuenta que sí, la tecnología digital deja muchas huellas y artefactos en el mundo físico: si nos fijamos, podemos descubrir las antenas, los routers y los cables per tot arreu(esp??).
-Gulli deckel marcan los lugares de los cables transatlánticos~\autocite{video-internet-landscapes}.
-Si seguimos las antenas y los routers, podemos reconstruir hasta un cierto grado las redes físicas de proyectos comunitarios.
+\begin{figure}[h]
+\centering
+\subfloat[Dibujo: AlterMundi]{\includegraphics[width=\columnwidth]{mapa-merged}} \\
+\subfloat[Fuente: Captura de pantalla, video dossiers desde las redes]{\includegraphics[width=\columnwidth]{redes_youtube_screenshot}}
+\caption[mapas]{Mapas de las redes libres de Argentina} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
+\label{fig:mapa}
+\end{figure}
 
-% Commons; moechte ich aus der Ecke argumentieren?
-En cierto sentido, las redes comunitarias se pueden ubicar en la lógica de los bienes comunes~\autocite{FiTre2015}.
-Ya la denominación ``redes \textit{comunitarias}'' insinua esta idea.
-Interesante sería fijarse en el valor ideológico que lleva esta noción.
-Según Rieder, el término ``comunidad'' es exclusivamente positivo en la historia cultural anglo-sajona~\autocite{Rieder2012}, mientras en otros contexto el significado sea más ambivalente.
-Por ejemplo en alemán, la noción se relaciona también con la ``Volksgemeinschaft'' (``comunidad popular'') de lxs nacis. % so what
-No obstante, en el sentido/caso de ``commons'' y ``redes comunitarias'' la conotación es más la de la tradición anglo-sajona.
+Bastante fascinante, aunque en un primer momento quizás un poco contralógica, resulta la observación de Latour que ``the expansion of digitality has enormously increased the material dimension of networks''~\autocite{Latour2010}.
+Sin embargo, si reflejamos un poco sobre el asunto, nos damos cuenta que sí, la tecnología digital deja muchas huellas y artefactos en el mundo físico: si nos fijamos, podemos descubrir las antenas, los routers y los cables por todas partes.
+Tapas de sumidero marcan los lugares en las costas donde llegan los cables transatlánticos de Internet~\autocite{Roth2015}.
+En las redes libres de AlterMundi podemos también reconstruir hasta un cierto grado las redes físicas de proyectos comunitarios, si seguimos las antenas y los routers distribuidos por el espacio físico (Figura~\vref{fig:artifacts}).
+Aún más, esta distribución nos da pistas a cerca de quién tiene acceso a esta infraestructura, tanto en el papel de usuarix como en el sentido que pueda mantener y revisar el hardware si surgen problemas.
+En general, lo más alto que estan las antenas, más personas pueden recibir su señal y está más difícil accederlas para hacer obras de mantenimiento técnico.
 
-Aunqué probablemente partes de la técnica partenecen tecnicamente(syn!) a personas privadas, otras partes son más una propiedad comunal.
-Aunqué la tecnología que utilizan las redes comunitarias es bastante robusta (vease Cap. X), está en el interés común de arreglar problemas que usuarixs particulares tienen, ya que si un aparato malfunciona toda la comunidad sufre.
-También, como señalan De Fillippi y Tréguer, esto es particularmente el caso para las redes comunitarias inalámbricas, ya que estas dependen exclusivamente a free-to-use airwaves (``spectrum commons'')~\autocite{FiTre2015}.
-Ellxs argumentan que en contraste con la wide-spread noción que la gestión de bienes comunes no funciona muy bien en práctica, en el caso de open spectrum, el approach tiene éxito:
-el spectro está usado más thorough/racionalmente/..
-% of spectrum and exclusive licensing still have the upper hand, they have often come short of fostering public interest goals, for instance by causing a very significant underutilization of this public resource"
-Además, infraestructura pública, creada por el estado con el dinero de impuestos ha de ser bien común y no regalada a empresas privadas, argumentan lxs científicxs~\autocite{FiTre2015}.
-
-\begin{comment}
-
-[nico-iv-pillku]
-"antenas que fabricamos localmente."
-
-"El firmware que instalamos: AlterMesh, permite la auto-configuración de los equipos de manera que al arrancar el nodo ya “sabe” como participar de la mesh. "
-
-"todo el pueblo funcione como una gran red local, lo que facilita la implementación de servicios y compartir contenidos."
-
-% Sicherheit
-"Los riesgos de sufrir ataques informáticos en una red libre no difieren particularmente de los riesgos que afrontan otros tipos de redes"
-"El hecho de que la red permita con más facilidad a las personas ofrecer servicios y compartir contenidos, genera también una conciencia diferente sobre el uso de la red y de sus dispositivos. Creemos que esta toma de conciencia es positiva también en relación a la seguridad."
-
-[FiTre2015]
-% la infraestructura técnica
-autonomous local networks + uplink to the internet (which is a potential bottleneck)
-gibts in Altermundis redes local services? (vgl nicos iv)
-ja --> "Contamos con un portal del pueblo donde todos pueden publicar información e inclusive clasificados. También tenemos un servicio interno de chat, independiente de redes externas, que al igual que el servicio de llamadas de Voz sobre IP (en experimentación) nos permite conectarnos entre vecinos de manera fluída. La Radio FM del pueblo aprovecha la red para hacer transmisión en vivo de su programación, tanto a la red local como a Internet."
-
-"rather binary antagonism between decentralization/freedom and centralization/control in
-communications resources."
--- vlt bisschen uebertrieben, das so schwarz-weiss zu sehen, gewisser grad an zentralitaet ist unabdingbar, e.g. wenn das lokale Netzwerk ans Internet angeschlossen werden sollte
-
-% redes comunitarias -- tech description
--- nicht alle community networks sind wlans! (rhizomatica; manche sind nicht nur wireless --> guifi; und nicht alle sind mesh --> auch guifi;)
-"many community networks do not rely on radio technologies"
-"rely solely and exclusively on
-free-to-use airwaves (or ‘spectrum commons’), WCN are to some extent more independent from incumbent ISPs than landline community"
-
-% Security
-"autonomous local networks" -- das ist auch interessant wegen soberania comunicativa
-"Local mesh networks also enable users to
-escape from the ubiquitous and pervasive surveillance that is occurring on the global Internet"
-"‘Devices operating in any wireless network—including mesh networks—use a radio transmitter that can always be located by
-triangulation’,"
-"even with highly distributed networks, traffic can always be monitored."
-"in no way can local community networks replace proper encryption techniques."
-"Their primary advantage in times of crisis
-is the fact that they provide community with the means to communicate independently from the central command of governments and traditional
-operators. They enable citizen to organize (politically or otherwise) even in the eventuality that the established powers activate the so-called ‘kill-
-switch’ and shut down communications networks in a given area (Hasan et al.)"
-"even through they do not have to give their identity to log into our mesh network, they are not anonymous toward the
-authorities or other entities due to hardware and software profiles of their devices and other metadata’"
--- ciberoptimismo, blabla, decentralización es buena; pero! siehe oben
-
-%% Surveilance/Privacy (related to security)
-"privacy threats raised by centralized communications architectures"
-"regulatory incentives to filter online content under the pressure of public officials"
-"dominant telecom operators might undermine users autonomy is through their collaboration with intelligence agencies
-for surveillance purposes"
-"light-touch approach to logging users’ communications"
-
-
-%TODO
-[Latour2010]
-"the technology.. /digital technology .. makes networks material and explicit" (infrastruktur ist präsent und sichtbar im öffentlichen Raum) --> wem gehört die Infrastruktur? wer kontrolliert die? Wer hat (physischen) Zugang dazu?
-  geografía: terreno difícil; quien controla la infraestructura?
-
-"subversion it introduces in the notion of distance (the adjectives “close” and “far” are
-made dependant on the presence of conduits, bridges, and hubs)," <-- physical network
-
-[Rieder2012]
-
-% Redes - Analyse
-> As Jens Jessen, has recently pointed out in
-> Die Zeit, it is democracy that guarantees a
-> free Internet and not the other way around.
---> Siehe China, Iran, Cuba etc;
-In dem Kontext verorten sich auch solche Projekte wie Altermundi
-
-"We are creating a world that all may enter without privilege or prejudice
-accorded by race, economic power, military force, or station of birth."
-“We are creating a world where anyone, anywhere may express his or her beliefs, no matter how singu-
-lar, without fear of being coerced into silence or conformity.” (Barlow 1996)
---> oder auch nicht --> siehe oben; community networks versuchen das aber wirklich umzusetzen
-
-"Especially in American research and critical comment, there
-seems to be a widely shared view according to which the Internet allows capillary configurations
-of power – local initiatives, ad-hoc pressure groups, fan cultures, “issue publics” – to challenge
-the statutory powers that be." (p.4)
---> aber um diese ueberhaupt moeglich zu sein, brauchen die Leute erstmal einen Zugang zu einer physischen Infrastruktur, der gar nicht so selbsverstaendlich gegeben ist.
---> koloniale Zusammenhaenge und Logiken werden reproduziert; aufgrund von geographischen (schwieriges Terrain), oekonomischen (Anbindung lohnt sich fuer kommerzielle Anbierter*innen nicht), politischen (der Staat oder X, dass sich Y Verhoer verschaffen kann) Gruende, haben Menschen keinen Zugriff zum Internet
-
-[PHPHLT2016]
-"we are interested in how the digital has become
-part of the material, sensory and social worlds we inhabit,"
---> denk an Routern und Anthennen im phys. Raum --> Videos vom Anthennenaufbau
-
-"how inequality is extended, reproduced or complicated by digital media technologies" --> kann leider nicht befriedigend beurteilen aus der ferne, aber ich würde eher für das gegenteil argumentieren beim projekt: es ist ein versuch, the digital devide zu schließen (bridging the digital devide);
-
-\end{comment}
-
-% Bild: artefactos físicos en las redes facilitadas por Altermundi
-Reference the figure composed of multiple subfigures as Figure~\vref{fig:esempio}. Reference one of the subfigures as Figure~\vref{fig:ipsum}. % The \vref command specifies the location of the reference
-
-\begin{figure}[tb]
+\begin{figure}[h]
 \centering
 \subfloat[Outdoor router en la red DeltaLibre.]{\includegraphics[width=.45\columnwidth]{deltalibre8}} \quad
 \subfloat[Antenas en DeltaLibre.]{\includegraphics[width=.45\columnwidth]{deltalibre10}\label{fig:ipsum}} \\
 \subfloat[Instalación de antenas en NonoLibre.]{\includegraphics[width=.45\columnwidth]{nonolibre7}} \quad
 \subfloat[Autoproducción de antenas.]{\includegraphics[width=.45\columnwidth]{nonolibre8}} \\
-\subfloat[Jesi en QuintanaLibre]{\includegraphics[width=.45\columnwidth]{2013_quintanalibre2}} \quad
-\subfloat[Antena en las altes cumbres con autonomía energética solar]{\includegraphics[width=.45\columnwidth]{16-todos_trabajando}}
+\subfloat[Descendiendo de una torre de comunicación en QuintanaLibre.]{\includegraphics[width=.45\columnwidth]{2013_quintanalibre2}} \quad
+\subfloat[Antena en las Altas Cumbres con autonomía energética solar.]{\includegraphics[width=.45\columnwidth]{16-todos_trabajando}}
 \caption[A number of pictures.]{AlterMundi: artefactos físicos. (Fotos: AlterMundi)} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
-\label{fig:esempio}
+\label{fig:artifacts}
 \end{figure}
 
-% eher zum kapitel gemeinschaftsnetzwerke; vlt den kapitel mit dem hier verschmelzen
+%---- vlt alles ab hier in dieses Zusammenfuegen Unterkapitel??----------------
+
+% Commons; moechte ich aus der Ecke argumentieren?
+En cierto sentido, las redes comunitarias se incertan en la lógica de los bienes comunes~\autocite{FiTre2015}.
+Ya la denominación ``redes \textit{comunitarias}'' insinua esta idea.
+Interesante sería fijarse en el valor ideológico que lleva esta noción.
+Según Rieder, el término ``comunidad'' es exclusivamente positivo en la historia cultural anglo-sajona~\autocite{Rieder2012}, mientras en otros contextos el significado sea más ambivalente.
+Por ejemplo en alemán, la noción se relaciona también con la ``Volksgemeinschaft'' (``comunidad popular'') de lxs nacis~\autocite{Rieder2012}. % so what
+No obstante, en el sentido de ``commons'' y ``redes comunitarias'' la conotación coincide más con la de la tradición anglo-sajona.
+
+Aunque probablemente partes de la técnica pertenecen prácticamente a personas privadas, otras partes son más una propiedad comunal.
+A pesar de que la tecnología que utilizan las redes comunitarias es bastante robusta (vease Cap. X), está en el interés común de arreglar problemas que usuarixs particulares tienen, ya que si un aparato malfunciona toda la comunidad sufre.
+
+También, como señalan De Fillippi y Tréguer, las redes comunitarias inalámbricas forman en todo caso parte de la lógica de los bienes comunes, ya que estas dependen exclusivamente de radio ondas que se pueden utilizar sin permiso, que lxs autorxs llaman ``spectrum commons''~\autocite{FiTre2015}.
+Argumentan que en contraste con la noción extendida que la gestión de bienes comunes no funcione muy bien en práctica, en el caso del espectro libre, el enfoque tiene éxito:
+el spectro está usado más completamente y racionalmente que freqüencias licenciadas por el uso exclusivo de consorcios de telecomunicaciones que muy a menudo quedan paradas.
+Además, infraestructura pública, creada por el estado con el dinero de impuestos ha de ser bien común y no regalada a empresas privadas, defenden lxs científicxs~\autocite{FiTre2015}.
+
+% hardware --> vlt auch in richtung, dass man dann selber machen kann?
+Las redes inalámbricas tienen una flexibilidad más grande y se pueden montar con hardware ecónomico estándar o construido en casa~\autocite{Piccoli2015}.
+
+% ciberoptimismo
 Proyectos de redes comunitarias como Altermundi se ubican claramente en el contexto de la segunda onda del ciberoptimismo, que Rieder esboza~\autocite{Rieder2012}.
-Sus valores claves (core values) son la decentralización, la distribución del control, la autogovernanza y la organización sin jerarquías~\autocite{FiTre2015}.
-Estos proyectos de base (grassroots projects) intentan a revolucionar la comunicación desde abajo, a empoderar a lxs usuarixs a tomar su comunicación en sus propias manos.
+Sus valores fundamentales son la decentralización, la distribución del control, la autogestión y la organización sin jerarquías~\autocite{FiTre2015},~\autocite{Piccoli2015}.
+Aunque proveen cierta autonomía, tales redes tampoco pueden ser completamente autosuficientes, sobre todo, si el objetivo es conectarse con el Internet.
+En tal caso, siempre se llega al punto donde la red comunitaria depende de una red más grande que la conecta con la red global y de esta conexión siempre surge cierta dependencia.
+Además, lo más global que alcanza la red, estan más en vigor las mismas preocupaciones de seguridad, censura y vigilancia que a lo mejor han impulsado los proyectos en primer lugar.
+Al final, las redes comunitarias no son en sí más seguras que otras, la diferencia primaria surge de la conciencia diferente de lxs usuarixs~\autocite{Piccoli2015},~\autocite{FiTre2015}, que en el caso ideal tienen una concepción más completa sobre cómo funciona la infraestructura y cuáles actividades ponen su seguridad y anonimidad en peligro.
 
-\begin{comment}
-* community network projects: are to be found in the context of (2nd wave) cyber optimism: "decentralization", "distributed control", "self-governance", "non-hierarchical organization"
-an attempt at a capillary revolution -> ist es erfolgreich?
-\end{comment}
-
+Estos proyectos de base intentan a revolucionar la comunicación desde abajo, a empoderar a lxs usuarixs a tomar su comunicación en sus propias manos. % uebergang zur sozialstruktur?
 
 \subsection{La red social de Altermundi}
 % \subsection{La red como tejido social}
@@ -318,6 +242,28 @@ telecom policies."
 it's an ongoing work -- the infrastructure crumples if people cease to maintain it and provide broadband
 
 ---
+[Rieder2012]
+
+% Redes - Analyse
+> As Jens Jessen, has recently pointed out in
+> Die Zeit, it is democracy that guarantees a
+> free Internet and not the other way around.
+--> Siehe China, Iran, Cuba etc;
+In dem Kontext verorten sich auch solche Projekte wie Altermundi
+
+"We are creating a world that all may enter without privilege or prejudice
+accorded by race, economic power, military force, or station of birth."
+“We are creating a world where anyone, anywhere may express his or her beliefs, no matter how singu-
+lar, without fear of being coerced into silence or conformity.” (Barlow 1996)
+--> oder auch nicht --> siehe oben; community networks versuchen das aber wirklich umzusetzen
+
+"Especially in American research and critical comment, there
+seems to be a widely shared view according to which the Internet allows capillary configurations
+of power – local initiatives, ad-hoc pressure groups, fan cultures, “issue publics” – to challenge
+the statutory powers that be." (p.4)
+--> aber um diese ueberhaupt moeglich zu sein, brauchen die Leute erstmal einen Zugang zu einer physischen Infrastruktur, der gar nicht so selbsverstaendlich gegeben ist.
+--> koloniale Zusammenhaenge und Logiken werden reproduziert; aufgrund von geographischen (schwieriges Terrain), oekonomischen (Anbindung lohnt sich fuer kommerzielle Anbierter*innen nicht), politischen (der Staat oder X, dass sich Y Verhoer verschaffen kann) Gruende, haben Menschen keinen Zugriff zum Internet
+
 [Rieder2012]
 
 > framing the Internet alternately as lawless, anarchic,
