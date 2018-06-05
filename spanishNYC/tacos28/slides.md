@@ -224,11 +224,11 @@ as , tanto públicas como privadas y charter . El sitio es
 
 # Thank you!
 
+
+slides: [https://github.com/lusy/hausarbeiten/tree/master/spanishNYC/tacos28](https://github.com/lusy/hausarbeiten/tree/master/spanishNYC/tacos28)
+
+
 ```
-
-https://github.com/lusy/pydataBerByeBye
-
-
 ```
 
 This presentation is licensed under the Creative Commons BY-SA license. ([https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/))
