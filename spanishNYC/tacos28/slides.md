@@ -33,7 +33,7 @@
 
 ---
 
-## What have I done?
+# What have I done?
 
 * scrape articles: 1419
   * possible problems: messy html structure of the magazine
@@ -42,7 +42,8 @@
 
 ---
 
-### Token segmentation
+# What have I done? (II)
+## Token segmentation
 
 * "self-esteem"/"self esteem"
 * "machine learning"
@@ -53,7 +54,7 @@
 
 ---
 
-## What have I done? (II)
+# What have I done? (III)
 
 * download and clean openoffice spelling dictionaries
   * intersection and differences (Spanish common and Spanish regional);
@@ -68,6 +69,8 @@
 * linguistic: some words exist in both languages (e.g.: "me", "no", "hay", "sin", "soy", "sea" etc.)
 
 ---
+
+# What have I done? (IV)
 
 * consider all tokens marked as EN only and their surrounding context
 * 3271 distinct appearances
@@ -84,7 +87,7 @@ epollo púrpura , y todos los “bebés” baby carrots ,
 és” baby carrots , baby remolachas , baby greens ,
 ts , baby remolachas , baby greens , baby arúgula .
 
-------------------------------------------------------------
+---------------------------------------------------------
 
 Article # 51108
 [charter, ['EN']]
@@ -94,6 +97,7 @@ as , tanto públicas como privadas y charter . El sitio es
 
 ---
 
+# What have I done? (V)
 ## sorting into categories
 
 * manually!
