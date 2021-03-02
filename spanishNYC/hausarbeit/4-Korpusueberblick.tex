@@ -6,13 +6,13 @@
 \subsection{Datensatz}
 
 Dieser Untersuchung liegen $1419$ Artikel der Zeitschrift \textit{Siempre Mujer} zu Grunde,
-die in der Periode März 2010 bis Februar 2015 in die/der? Online-Ausgabe des Magazins\footnote{http://siempremujer.com/} veröffentlicht wurden.
+die in der Periode März 2010 bis Februar 2015 in der Online-Ausgabe des Magazins\footnote{http://siempremujer.com/} veröffentlicht wurden.
 
 \textit{Siempre Mujer} wird von der Meredith Corporation USA, California herausgegeben\footnote{http://www.meredith.com}.
 %2 Sätze mehr zu Meredith Corporation?
 Das Zielpublikum der Publikation sind Latinas, die in den USA leben. %Quelle?
 %Read http://siempremujer.com/pagina/quienes-somos/ -> Zielpublikum? Gibts so ne Art Mission Statement?
-Die Artikel der Online-Ausgabe sind vorwiegend in/auf? spanischer Sprache verfasst,
+Die Artikel der Online-Ausgabe sind vorwiegend in spanischer Sprache verfasst,
 wobei wir gelegentlich Code-Switches ins (bzw. Entlehnungen aus dem) Englische beobachten können.
 Diese sollten im weiteren Verlauf der Arbeit näher untersucht werden.
 
@@ -34,12 +34,15 @@ noch werden alle Englisch-Vorkommnisse extrahiert und besprochen.
 
 Im Folgenden wird kurz die methodische Vorgehensweise erläutert, im Züge deren die untersuchten Daten aufbereitet wurden.
 
-Zunächst wurden die bereits erwähnten $1419$ Artikel herunter geladen.
-Dann wurden jegliche Formattierungen entfernt (html-Markup), so dass am Ende nur der eigentliche Text der Artikel vorlag.
+Zunächst wurden die oben genannten $1419$ Artikel automatisiert herunter geladen und einzeln gespeichert.
+Wie bereits erwähnt, sind das nicht alle Artikel, die in der betrachteten Periode in der online-Ausgabe der Zeitschrift erschienen sind.
+Das liegt daran, dass die \textit{Siempre mujer}-Webseite kein einheitliches URL-Schema verwendet, so dass es nicht möglich ist, die Adressen aller Artikel automatisch zu erkennen und systematisch zu besuchen.
+
+Danach wurden jegliche Formattierungen (html-Markup) entfernt, so dass am Ende nur der eigentliche Text der Artikel vorlag.
 Als nächstes wurden die Artikeltexte anhand Leerzeichen in Tokens/Wörter segmentiert.
 Im folgenden Schritt galt es, die englischen Wörter im vorwiegend spanischen Text zu finden und als solche zu kennzeichnen.
-Hierfür habe ich die Rechtschreibwörterbücher von Open Office\footnote{https://wiki.openoffice.org/wiki/Dictionaries} verwendet.
-Diese stellen einfache Wortlisten für die einzelnen Sprachen dar, die unter einer freien Lizenz (?LGPL/Gnu GPL -- was ist der Unterschied?)\footnote{http://archive.services.openoffice.org/pub/mirror/OpenOffice.org/contrib/dictionaries/README\_en\_EN.txt} benutzbar sind.
+Hierfür wurden die Rechtschreibwörterbücher von Open Office\footnote{https://wiki.openoffice.org/wiki/Dictionaries} verwendet.
+Diese stellen einfache Wortlisten für die einzelnen Sprachen dar, die unter einer freien Lizenz (LGPL) benutzbar sind.
 % spanishwörterbuch processing beschreiben
 Ich habe dann jedes Token entsprechend des Wörterbuchs, in dem es vorkam, annotiert: Spanisch, Englisch oder beides. (genauer gesagt, gab es Spanisch allgemein und Regionalspanisch)
 Anschließend habe ich alle Tokens, die \textbf{nur} als Englisch annotiert wurden, zusammen mit ihrem unmittelbaren Kontext betrachtet.
