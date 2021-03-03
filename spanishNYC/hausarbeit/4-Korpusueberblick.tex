@@ -1,23 +1,20 @@
 \section{Korpusüberblick}
 \label{chap:corpus}
 
-%TODO: set "visited on" for all links!
 
 \subsection{Datensatz}
 
 Dieser Untersuchung liegen $1419$ Artikel der Zeitschrift \textit{Siempre Mujer} zu Grunde,
 die in der Periode März 2010 bis Februar 2015 in der Online-Ausgabe des Magazins\footnote{http://siempremujer.com/} veröffentlicht wurden.
 
-\textit{Siempre Mujer} wird von der Meredith Corporation USA, California herausgegeben\footnote{http://www.meredith.com}.
-%2 Sätze mehr zu Meredith Corporation?
-Das Zielpublikum der Publikation sind Latinas, die in den USA leben. %Quelle?
-%Read http://siempremujer.com/pagina/quienes-somos/ -> Zielpublikum? Gibts so ne Art Mission Statement?
+\textit{Siempre Mujer} wird, zusammen mit weiteren Frauen-Werbe-Zeitschriften wie zum Beispiel \textit{Better Homes and Gardens}, \textit{Midwest Living}, \textit{Parents}, \textit{Family Circle}, \textit{Ser Padres}, \textit{Fitness Magazine} und anderen, von der Meredith Corporation USA, California herausgegeben\footnote{http://www.meredith.com}.
+Das Zielpublikum der Publikation sind Latinas, die in den USA leben\footnote{https://www.meredith.com/national-media/multicultural (zuletzt abgerufen: 03.03.2021)}.
 Die Artikel der Online-Ausgabe sind vorwiegend in spanischer Sprache verfasst,
 wobei wir gelegentlich Code-Switches ins (bzw. Entlehnungen aus dem) Englische beobachten können.
 Diese sollten im weiteren Verlauf der Arbeit näher untersucht werden.
 
 Die vorliegende Analyse hat keinen Anspruch auf Vollständigkeit:
-es werden weder zwangsläufig alle in der oben genannten Periode veröffentlichten Artikel betrachtet,
+Es werden weder zwangsläufig alle in der oben genannten Periode veröffentlichten Artikel betrachtet,
 noch werden alle Englisch-Vorkommnisse extrahiert und besprochen.
 
 
@@ -34,17 +31,21 @@ noch werden alle Englisch-Vorkommnisse extrahiert und besprochen.
 
 Im Folgenden wird kurz die methodische Vorgehensweise erläutert, im Züge deren die untersuchten Daten aufbereitet wurden.
 
-Zunächst wurden die oben genannten $1419$ Artikel automatisiert herunter geladen und einzeln gespeichert.
+Zunächst wurden die oben genannten $1419$ Artikel automatisiert heruntergeladen und einzeln gespeichert.
 Wie bereits erwähnt, sind das nicht alle Artikel, die in der betrachteten Periode in der online-Ausgabe der Zeitschrift erschienen sind.
 Das liegt daran, dass die \textit{Siempre mujer}-Webseite kein einheitliches URL-Schema verwendet, so dass es nicht möglich ist, die Adressen aller Artikel automatisch zu erkennen und systematisch zu besuchen.
 
-Danach wurden jegliche Formattierungen (html-Markup) entfernt, so dass am Ende nur der eigentliche Text der Artikel vorlag.
+Danach wurden jegliche Formattierungen (HTML-Markup) entfernt, so dass am Ende nur der eigentliche Text der Artikel vorlag.
 Als nächstes wurden die Artikeltexte anhand Leerzeichen in Tokens/Wörter segmentiert.
 Im folgenden Schritt galt es, die englischen Wörter im vorwiegend spanischen Text zu finden und als solche zu kennzeichnen.
-Hierfür wurden die Rechtschreibwörterbücher von Open Office\footnote{https://wiki.openoffice.org/wiki/Dictionaries} verwendet.
-Diese stellen einfache Wortlisten für die einzelnen Sprachen dar, die unter einer freien Lizenz (LGPL) benutzbar sind.
-% spanishwörterbuch processing beschreiben
-Ich habe dann jedes Token entsprechend des Wörterbuchs, in dem es vorkam, annotiert: Spanisch, Englisch oder beides. (genauer gesagt, gab es Spanisch allgemein und Regionalspanisch)
+Hierfür wurden die Rechtschreibwörterbücher von Open Office\footnote{https://wiki.openoffice.org/wiki/Dictionaries (zuletzt abgerufen: 03.03.2021)} verwendet.
+Diese stellen einfache Wortlisten für die einzelnen Sprachen dar, die unter einer freien Lizenz (LGPL\footnote{GNU Lesser General Public License https://www.gnu.org/licenses/lgpl-3.0.txt (zuletzt abgerufen: 03.03.2021)}) benutzbar sind.
+Ich habe dann jedes Token entsprechend des Wörterbuchs, in dem es vorkam, annotiert: Spanisch, Englisch oder beides.
+Neben dem Rechtschreibwörterbuch für US-amerikanisches Englisch wurden dabei alle verfügbaren lokalisierten Spanisch-Wörterbücher für lateinamerikanische Spanisch-Varianten
+\footnote{Im Einzelnen handelt es sich dabei um argentinisches, bolivianisches, chilenisches, kolumbianisches, costa-ricanisches, kubanisches, dominikanisches, ecuadorianisches, guatemaltekisches, honduranisches, mexikanisches, nicaraguanisches, paraguayisches, peruanisches, panamaisches, puerto-ricanisches, salvadorianisches, uruguayisches und venezolanisches Spanisch.} benutzt.
+Aus diesen wurde ein ``allgemein Spanisch''-Wörterbuch erzeugt, das alle Einträge enthielt, die in allen regionalen Wörterbücher vorkamen.
+Alle Wörter, die im ``allgemein Spanisch''-Wörterbuch erfasst wurden, wurden dann aus den regionalen Wörterbüchern entfernt.
+Letztlich wurden im Annotierungsprozess die Wörter mit dem allgemeinen oder entsprechenden lokalen Spanisch (beziehungsweise, meistens mit mehreren davon) gekennzeichnet.
 Anschließend habe ich alle Tokens, die \textbf{nur} als Englisch annotiert wurden, zusammen mit ihrem unmittelbaren Kontext betrachtet.
 
 Es muss an der Stelle angemerkt werden, dass der oben beschriebene Prozess auf keinen Fall perfekte Ergebnisse liefert.
@@ -53,20 +54,15 @@ Es fehlen nicht nur seltene Begriffe, sondern ganz oft auch Formen von sehr häu
 nicht jedes Substantiv ist mit allen seinen Formen (weiblich, männlich, singular, plural) erfasst;
 genau so wenig ist es jedes Verb in allen Zeiten, Modi und Personen.
 Natürlich existieren Mechanismen, die es erlauben, die entsprechenden Formen zu generieren und zum Wörterbuch hinzuzufügen.
-%ja welche mechanismen denn?
 Dies ist jedoch ein längeres Unterfangen, das den Rahmen der vorliegenden Arbeit sprengen würde und es wird deshalb darauf verzichtet.
 
 Ein weiteres Problem bei diesem Ansatz stellen Homographe dar.
 Diejenige Wörter, die auf Spanisch und Englisch gleich geschrieben werden aber unterschiedliche Bedeutungen haben, werden in den Wortlisten wahlweise in dem einem, in dem anderen oder in beiden Wörterbüchern gefunden.
 Es kommt also oft vor, das ein Token als Englisch annotiert wurde (und zwar nur als Englisch, weil das spanische Wörterbuch unvollständig war), obwohl es sich bei einer Lektüre des Textes ganz klar und eindeutig um ein spanisches Wort handelt.
-%TODO bsp von concordances ausgabe!
-
-%TODO
-%Zwischenschlussfolgerung!
 
 Der Quellcode zum bereits beschriebenen Vorgang sowie die Rohfassung der Ergebnisse sind unter \url{https://github.com/lusy/hora-de-decir-bye-bye} zu finden.
 
-Nachdem wir klar gestellt haben, wie die untersuchten Daten zusammen getragen und aufbereitet wurden, können wir nun zu den gewonnen Erkenntnissen übergehen.
+Nach dieser Klarstellung wie die untersuchten Daten zusammen getragen und aufbereitet wurden, betrachten wir im nächsten Kapitel die gewonnenen Erkenntnisse.
 
 %Ein bisschen über die Methodik:
 %\begin{itemize}
