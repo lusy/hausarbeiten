@@ -275,7 +275,6 @@ FUNCTION {format.rev.names}  % reverse first name in name list
   
   % format first name in reverse order	
   s nameptr "{vv~}{ll}{, jj}{, ff}" format.name$ 't :=   % last name first 
-  "{\normalfont \scshape " t * "}" * 't := 	% put in small caps for LSA	
   nameptr #1 + 'nameptr :=
   namesleft #1 - 'namesleft :=
 
@@ -293,7 +292,6 @@ FUNCTION {format.rev.names}  % reverse first name in name list
   
   { namesleft #0 > }
     { s nameptr "{ff~}{vv~}{ll}{, jj}" format.name$ 't :=    % first name first
-       "{\normalfont \scshape " t * "}" * 't := 	% put in small caps for LSA	
        dup #0 =
          'skip$
          { lsanewflag 
@@ -573,7 +571,8 @@ FUNCTION {format.in.ed.booktitle}
 %	{ "In " booktitle "t" change.case$ emphasize * }
 %	{ "In " booktitle "t" change.case$ emphasize * ", ed. by " * editor format.norev.names * }
 	{ "In " booktitle emphasize * }
-	{ "In " booktitle emphasize * ", ed. by " * editor format.norev.names * }
+%	{ "In " booktitle emphasize * ", ed. by " * editor format.norev.names * }
+	{ "In " editor format.norev.names * " (ed.), " * booktitle emphasize * }
       if$
     }
   if$
