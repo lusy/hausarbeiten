@@ -57,9 +57,9 @@ Seminarleiter: Uli Reich
 
 \newpage
 \thispagestyle{empty}
+\tableofcontents % Print the table of contents
 \setcounter{tocdepth}{3} % Set the depth of the table of contents to show sections and subsections only
 
-\tableofcontents % Print the table of contents
 
 \pagenumbering{gobble}
 \thispagestyle{empty}
@@ -81,6 +81,8 @@ Seminarleiter: Uli Reich
 \include{6-Fazit}
 
 
+\phantomsection
+\addcontentsline{toc}{section}{Literatur}
 \bibliography{literature}
 \bibliographystyle{lsalike}
 
