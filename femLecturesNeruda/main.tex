@@ -1,0 +1,81 @@
+\documentclass{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[normalem]{ulem}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage{lmodern} % bessere Schrift für PDFs
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{natbib}
+%\usepackage{bibgerm}
+\usepackage{comment}
+\usepackage{tipa}
+%\usepackage{gb4e}
+%\usepackage{lipsum} % Nur zum Auffüllen von Text
+\usepackage{hyperref}
+
+\hypersetup{
+	pdftitle={Feministische Lektüren von Nerudas Liebeslyrik},
+    pdfauthor={Lusy},
+    pdfstartview={FitH},
+}
+
+% add subdirectory for images
+\graphicspath{{figures/}}
+
+
+\clubpenalty=10000
+\widowpenalty=10000
+
+% neue Absatz wird mit Leerzeile begonnen:
+\parindent 0pt
+\parskip 12pt
+
+%\renewcommand{\thefootnote}{\roman{footnote}}
+
+\title{Feministische Lektüren von Nerudas Liebeslyrik}
+
+\author{Lusy}
+
+\date{\today}
+
+\begin{document}
+
+\thispagestyle{empty}
+\pagenumbering{gobble}
+\maketitle
+
+\newpage
+\pagenumbering{gobble}
+\thispagestyle{empty}
+\clearpage\mbox{}\clearpage
+
+\newpage
+\thispagestyle{empty}
+\tableofcontents % Print the table of contents
+\setcounter{tocdepth}{3} % Set the depth of the table of contents to show sections and subsections only
+
+
+\pagenumbering{gobble}
+\thispagestyle{empty}
+\clearpage\mbox{}\clearpage
+%\thispagestyle{empty}
+\newpage
+
+\pagenumbering{arabic}
+\include{1-Intro}
+\include{2-Reception}
+\include{3-FeministLectures}
+\include{4-Re-vision}
+\include{X-Conclusion}
+
+
+\phantomsection
+\addcontentsline{toc}{section}{Literatur}
+\bibliography{literature}
+\bibliographystyle{lsalike}
+
+
+\end{document}
