@@ -7,6 +7,7 @@ Form:
   http://ctan.math.washington.edu/tex-archive/macros/latex/contrib/verse/verse.pdf
 * überlegen wie Medientitel formattiert werden sollten; vlt Gedichtsnamen in "" und Gedichtsbänder in kursiv (sind ja Publikationen)?
 * quellen neruda aufräumen
+* Enforce Caps in bib sources titles
 
 Inhalt:
 * close readings of poems
